@@ -1,0 +1,2259 @@
+
+##
+================================================================================
+# TARGET FILE: >test.z3<
+================================================================================
+Z-Machine Version:    z3
+Release Code:         88
+Compile Serial:       840726
+Memory Base Pointer:  0x4E37
+Initial PC Pointer:   0x4F05
+Dictionary Offset:    0x3B21
+--------------------------------------------------------------------------------
+File Checksum Status:      [PASS] (Header: 0xA129)
+File Dimension Boundary:   [PASS]
+Discovered Game Objects:   250 entries
+Captured Global Variables: 240 slots
+Parsed Vocabulary Words:   697 tokens
+================================================================================
+COMPLETE GLOBAL VARIABLES STATE STATE SNAPSHOT:
+  G0      : 0x0000   G1      : 0x0000   G2      : 0x0000   G3      : 0x2E4B   G4      : 0x2E1B   G5      : 0x2D3F   G6      : 0x2C75   G7      : 0x2BF9   
+  G8      : 0x2AB7   G9      : 0x2AAF   G10     : 0x2AA9   G11     : 0x2A95   G12     : 0x2A7F   G13     : 0x2A69   G14     : 0x2A51   G15     : 0x2A3D   
+  G16     : 0x2A23   G17     : 0x0000   G18     : 0x2A1D   G19     : 0xFFFF   G20     : 0x0001   G21     : 0x29FB   G22     : 0x29EF   G23     : 0x29D9   
+  G24     : 0x000D   G25     : 0x29CB   G26     : 0x0006   G27     : 0x29BD   G28     : 0x9E1A   G29     : 0x9DF5   G30     : 0x0000   G31     : 0x0000   
+  G32     : 0x0000   G33     : 0x0000   G34     : 0x29B1   G35     : 0x0000   G36     : 0x0000   G37     : 0x299F   G38     : 0x2995   G39     : 0x0000   
+  G40     : 0x0000   G41     : 0x0000   G42     : 0x0000   G43     : 0x0000   G44     : 0x0000   G45     : 0x0000   G46     : 0x0000   G47     : 0x0000   
+  G48     : 0x0000   G49     : 0x2981   G50     : 0x0001   G51     : 0x0000   G52     : 0x2977   G53     : 0x296B   G54     : 0x295F   G55     : 0x2959   
+  G56     : 0x294F   G57     : 0x2943   G58     : 0x0008   G59     : 0x0007   G60     : 0x0001   G61     : 0x0000   G62     : 0x0000   G63     : 0x0000   
+  G64     : 0x0000   G65     : 0x0000   G66     : 0x0000   G67     : 0x2937   G68     : 0x292D   G69     : 0x0000   G70     : 0x0000   G71     : 0x0000   
+  G72     : 0x0000   G73     : 0x0000   G74     : 0x0000   G75     : 0x0000   G76     : 0x0000   G77     : 0x0000   G78     : 0x0000   G79     : 0x0000   
+  G80     : 0x0000   G81     : 0x0000   G82     : 0x28C9   G83     : 0x2865   G84     : 0x2801   G85     : 0x279D   G86     : 0x2739   G87     : 0x0000   
+  G88     : 0x0000   G89     : 0x0000   G90     : 0x0000   G91     : 0x0000   G92     : 0x0000   G93     : 0x0000   G94     : 0x0000   G95     : 0x0000   
+  G96     : 0x0000   G97     : 0x0000   G98     : 0x2731   G99     : 0x271D   G100    : 0x2709   G101    : 0x0000   G102    : 0x0000   G103    : 0x0000   
+  G104    : 0x0000   G105    : 0x0000   G106    : 0x0000   G107    : 0x0000   G108    : 0x0000   G109    : 0x2641   G110    : 0x2551   G111    : 0x0000   
+  G112    : 0x0000   G113    : 0x0000   G114    : 0x0000   G115    : 0x0000   G116    : 0x0000   G117    : 0x0000   G118    : 0x0000   G119    : 0x0000   
+  G120    : 0x0000   G121    : 0x0000   G122    : 0x0000   G123    : 0x0000   G124    : 0x0000   G125    : 0x0000   G126    : 0x0000   G127    : 0x0000   
+  G128    : 0x0000   G129    : 0x0000   G130    : 0x00B4   G131    : 0x00B4   G132    : 0x23E9   G133    : 0x0064   G134    : 0x0064   G135    : 0x23D1   
+  G136    : 0x23C7   G137    : 0x23B9   G138    : 0x23AD   G139    : 0x0000   G140    : 0x0000   G141    : 0x0000   G142    : 0x0000   G143    : 0x0000   
+  G144    : 0x0000   G145    : 0x0000   G146    : 0x0000   G147    : 0x0000   G148    : 0x0000   G149    : 0x0000   G150    : 0x0000   G151    : 0x015E   
+  G152    : 0x0013   G153    : 0x2710   G154    : 0x3ADB   G155    : 0x3893   G156    : 0x39B7   G157    : 0x2E53   G158    : 0x0005   G159    : 0x00B4   
+  G160    : 0x0051   G161    : 0x004F   G162    : 0x0050   G163    : 0x00B4   G164    : 0x0006   G165    : 0x004E   G166    : 0x004D   G167    : 0x004C   
+  G168    : 0x004B   G169    : 0x004A   G170    : 0x004E   G171    : 0x0004   G172    : 0x00C1   G173    : 0x00CB   G174    : 0x00C9   G175    : 0x00CB   
+  G176    : 0x000B   G177    : 0x00B4   G178    : 0x0051   G179    : 0x004F   G180    : 0x0050   G181    : 0x004E   G182    : 0x004D   G183    : 0x004C   
+  G184    : 0x004B   G185    : 0x004A   G186    : 0x008F   G187    : 0x0019   G188    : 0x0000   G189    : 0x0000   G190    : 0x0000   G191    : 0x0000   
+  G192    : 0x0000   G193    : 0x0000   G194    : 0x0000   G195    : 0x0000   G196    : 0x0000   G197    : 0x0000   G198    : 0x0000   G199    : 0x0000   
+  G200    : 0x0000   G201    : 0x0000   G202    : 0x0000   G203    : 0x0000   G204    : 0x0000   G205    : 0x0000   G206    : 0x0000   G207    : 0x0000   
+  G208    : 0x0000   G209    : 0x0000   G210    : 0x0000   G211    : 0x0000   G212    : 0x0000   G213    : 0x0000   G214    : 0x0000   G215    : 0x0000   
+  G216    : 0x0000   G217    : 0x0000   G218    : 0x0000   G219    : 0x0000   G220    : 0x0000   G221    : 0x0000   G222    : 0x0000   G223    : 0x0000   
+  G224    : 0x0000   G225    : 0x0000   G226    : 0x0000   G227    : 0x0000   G228    : 0x0000   G229    : 0x0000   G230    : 0x0000   G231    : 0x0000   
+  G232    : 0x0000   G233    : 0x0000   G234    : 0x0000   G235    : 0x0000   G236    : 0x0000   G237    : 0x0000   G238    : 0x0000   G239    : 0x0000   
+  
+================================================================================
+COMPLETE HIERARCHICAL OBJECT TREE & PROPERTY ELEMENT DATA MAPS:
+  Object #001: "pair of hands                 " (Parent: 247 Sibling: 2   Child: 0   PropPtr: 0x0BB8)
+    -> Active Attributes: TAKEABLE, CONTAINER
+    -> Property ID #18 [Size: 6 bytes]: Data = 46 DC 42 C2 42 B4
+    -> Property ID #16 [Size: 1 bytes]: Data = 82
+  Object #002: "zorkmid                       " (Parent: 247 Sibling: 3   Child: 0   PropPtr: 0x0BCB)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 2 bytes]: Data = 4E 29
+    -> Property ID #17 [Size: 2 bytes]: Data = 2A 04
+  Object #003: "way                           " (Parent: 247 Sibling: 5   Child: 0   PropPtr: 0x0BD9)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 8 bytes]: Data = 46 F8 3E D2 4C 46 47 14
+    -> Property ID #17 [Size: 2 bytes]: Data = 29 E3
+    -> Property ID #16 [Size: 4 bytes]: Data = 85 F2 84 83
+  Object #004: "cretin                        " (Parent: 0   Sibling: 0   Child: 0   PropPtr: 0x0BEE)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 2 bytes]: Data = 3B 59
+    -> Property ID #17 [Size: 2 bytes]: Data = 00 00
+    -> Property ID #07 [Size: 2 bytes]: Data = 00 00
+  Object #005: "you                           " (Parent: 247 Sibling: 6   Child: 0   PropPtr: 0x0BFD)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 8 bytes]: Data = 45 93 45 E0 49 91 3E D9
+    -> Property ID #17 [Size: 2 bytes]: Data = 29 5C
+  Object #006: "blast of air                  " (Parent: 247 Sibling: 7   Child: 0   PropPtr: 0x0C0D)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 8 bytes]: Data = 45 1C 3B 6E 45 C4 3D 4A
+  Object #007: "lurking grue                  " (Parent: 247 Sibling: 8   Child: 0   PropPtr: 0x0C20)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 2 bytes]: Data = 42 91
+    -> Property ID #17 [Size: 2 bytes]: Data = 28 C5
+    -> Property ID #16 [Size: 4 bytes]: Data = 88 87 CE 86
+  Object #008: "ground                        " (Parent: 247 Sibling: 9   Child: 0   PropPtr: 0x0C35)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 8 bytes]: Data = 42 83 49 05 3F 6C 41 3A
+    -> Property ID #17 [Size: 2 bytes]: Data = 28 AB
+  Object #009: "sailor                        " (Parent: 247 Sibling: 10  Child: 0   PropPtr: 0x0C47)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 6 bytes]: Data = 48 FE 41 5D 3B DE
+    -> Property ID #17 [Size: 2 bytes]: Data = 28 7D
+  Object #010: "blessings                     " (Parent: 247 Sibling: 12  Child: 0   PropPtr: 0x0C57)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 4 bytes]: Data = 3C A9 42 59
+  Object #011: "such thing                    " (Parent: 0   Sibling: 0   Child: 0   PropPtr: 0x0C64)
+    -> Active Attributes: NONE
+    -> Property ID #17 [Size: 2 bytes]: Data = 27 D1
+  Object #012: "random object                 " (Parent: 247 Sibling: 14  Child: 0   PropPtr: 0x0C71)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 8 bytes]: Data = 43 CC 4B BA 42 F3 43 0F
+  Object #013: "pseudo                        " (Parent: 249 Sibling: 92  Child: 0   PropPtr: 0x0C86)
+    -> Active Attributes: NONE
+    -> Property ID #17 [Size: 2 bytes]: Data = 29 5C
+  Object #014: "number                        " (Parent: 247 Sibling: 249 Child: 0   PropPtr: 0x0C8F)
+    -> Active Attributes: CONTAINER
+    -> Property ID #18 [Size: 2 bytes]: Data = 43 A9
+  Object #015: "Slide Room                    " (Parent: 82  Sibling: 16  Child: 0   PropPtr: 0x0C98)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 18
+    -> Property ID #30 [Size: 1 bytes]: Data = 2D
+    -> Property ID #22 [Size: 1 bytes]: Data = 48
+    -> Property ID #11 [Size: 2 bytes]: Data = 99 F0
+    -> Property ID #05 [Size: 1 bytes]: Data = CD
+  Object #016: "Coal Mine                     " (Parent: 82  Sibling: 17  Child: 0   PropPtr: 0x0CAB)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 11
+    -> Property ID #29 [Size: 1 bytes]: Data = 10
+    -> Property ID #22 [Size: 1 bytes]: Data = 15
+    -> Property ID #11 [Size: 2 bytes]: Data = 99 E2
+  Object #017: "Coal Mine                     " (Parent: 82  Sibling: 18  Child: 0   PropPtr: 0x0CBE)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 1 bytes]: Data = 12
+    -> Property ID #28 [Size: 1 bytes]: Data = 11
+    -> Property ID #24 [Size: 1 bytes]: Data = 10
+    -> Property ID #11 [Size: 2 bytes]: Data = 99 E2
+  Object #018: "Coal Mine                     " (Parent: 82  Sibling: 19  Child: 0   PropPtr: 0x0CD1)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 12
+    -> Property ID #28 [Size: 1 bytes]: Data = 13
+    -> Property ID #25 [Size: 1 bytes]: Data = 11
+    -> Property ID #11 [Size: 2 bytes]: Data = 99 E2
+  Object #019: "Coal Mine                     " (Parent: 82  Sibling: 157 Child: 0   PropPtr: 0x0CE4)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 7C
+    -> Property ID #30 [Size: 1 bytes]: Data = 13
+    -> Property ID #27 [Size: 1 bytes]: Data = 12
+    -> Property ID #11 [Size: 2 bytes]: Data = 99 E2
+  Object #020: "Ladder Bottom                 " (Parent: 82  Sibling: 21  Child: 0   PropPtr: 0x0CF7)
+    -> Active Attributes: NONE
+    -> Property ID #29 [Size: 1 bytes]: Data = CE
+    -> Property ID #28 [Size: 1 bytes]: Data = 76
+    -> Property ID #23 [Size: 1 bytes]: Data = 15
+    -> Property ID #11 [Size: 2 bytes]: Data = 99 4B
+    -> Property ID #05 [Size: 1 bytes]: Data = 75
+  Object #021: "Ladder Top                    " (Parent: 82  Sibling: 124 Child: 0   PropPtr: 0x0D0E)
+    -> Active Attributes: NONE
+    -> Property ID #23 [Size: 1 bytes]: Data = 10
+    -> Property ID #22 [Size: 1 bytes]: Data = 14
+    -> Property ID #11 [Size: 2 bytes]: Data = 99 23
+    -> Property ID #05 [Size: 2 bytes]: Data = 75 49
+  Object #022: "Smelly Room                   " (Parent: 82  Sibling: 226 Child: 0   PropPtr: 0x0D22)
+    -> Active Attributes: NONE
+    -> Property ID #28 [Size: 1 bytes]: Data = E2
+    -> Property ID #22 [Size: 1 bytes]: Data = 7C
+    -> Property ID #11 [Size: 2 bytes]: Data = 98 DC
+    -> Property ID #05 [Size: 1 bytes]: Data = 49
+    -> Property ID #04 [Size: 8 bytes]: Data = 46 42 7C D6 41 E9 7C D6
+  Object #023: "Squeaky Room                  " (Parent: 82  Sibling: 24  Child: 0   PropPtr: 0x0D3E)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = DE
+    -> Property ID #30 [Size: 1 bytes]: Data = 18
+    -> Property ID #11 [Size: 2 bytes]: Data = 98 6D
+  Object #024: "Mine Entrance                 " (Parent: 82  Sibling: 25  Child: 0   PropPtr: 0x0D4F)
+    -> Active Attributes: NONE
+    -> Property ID #29 [Size: 1 bytes]: Data = 17
+    -> Property ID #28 [Size: 1 bytes]: Data = 0F
+    -> Property ID #21 [Size: 1 bytes]: Data = 17
+    -> Property ID #11 [Size: 2 bytes]: Data = 98 46
+  Object #025: "Canyon View                   " (Parent: 82  Sibling: 26  Child: 0   PropPtr: 0x0D64)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 1 bytes]: Data = 1A
+    -> Property ID #29 [Size: 1 bytes]: Data = 4C
+    -> Property ID #28 [Size: 2 bytes]: Data = 8F 43
+    -> Property ID #26 [Size: 1 bytes]: Data = 4A
+    -> Property ID #22 [Size: 1 bytes]: Data = 1A
+    -> Property ID #17 [Size: 2 bytes]: Data = 27 77
+    -> Property ID #11 [Size: 2 bytes]: Data = 97 9A
+    -> Property ID #05 [Size: 3 bytes]: Data = 5D 83 84
+  Object #026: "Rocky Ledge                   " (Parent: 82  Sibling: 27  Child: 0   PropPtr: 0x0D83)
+    -> Active Attributes: NONE
+    -> Property ID #23 [Size: 1 bytes]: Data = 19
+    -> Property ID #22 [Size: 1 bytes]: Data = 1B
+    -> Property ID #11 [Size: 2 bytes]: Data = 97 5A
+    -> Property ID #05 [Size: 2 bytes]: Data = 5D 83
+  Object #027: "Canyon Bottom                 " (Parent: 82  Sibling: 136 Child: 0   PropPtr: 0x0D99)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 88
+    -> Property ID #23 [Size: 1 bytes]: Data = 1A
+    -> Property ID #11 [Size: 2 bytes]: Data = 97 2E
+    -> Property ID #05 [Size: 3 bytes]: Data = EE 5D 83
+  Object #028: "On the Rainbow                " (Parent: 82  Sibling: 29  Child: 0   PropPtr: 0x0DB0)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 1 bytes]: Data = 1D
+    -> Property ID #29 [Size: 1 bytes]: Data = 88
+    -> Property ID #11 [Size: 2 bytes]: Data = 96 B2
+    -> Property ID #05 [Size: 1 bytes]: Data = 84
+  Object #029: "Aragain Falls                 " (Parent: 82  Sibling: 126 Child: 0   PropPtr: 0x0DC5)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 1E
+    -> Property ID #29 [Size: 4 bytes]: Data = 1C 9E 00 00
+    -> Property ID #23 [Size: 4 bytes]: Data = 1C 9E 00 00
+    -> Property ID #22 [Size: 2 bytes]: Data = 96 AC
+    -> Property ID #17 [Size: 2 bytes]: Data = 73 CB
+    -> Property ID #05 [Size: 3 bytes]: Data = EE 83 84
+  Object #030: "Shore                         " (Parent: 82  Sibling: 31  Child: 0   PropPtr: 0x0DE7)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 78
+    -> Property ID #28 [Size: 1 bytes]: Data = 1D
+    -> Property ID #11 [Size: 2 bytes]: Data = 96 40
+    -> Property ID #05 [Size: 2 bytes]: Data = EE 83
+  Object #031: "Frigid River                  " (Parent: 82  Sibling: 130 Child: 0   PropPtr: 0x0DF7)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 1 bytes]: Data = 1E
+    -> Property ID #23 [Size: 2 bytes]: Data = 95 1A
+    -> Property ID #19 [Size: 1 bytes]: Data = 1E
+    -> Property ID #11 [Size: 2 bytes]: Data = 96 26
+    -> Property ID #05 [Size: 2 bytes]: Data = EE 83
+  Object #032: "White Cliffs Beach            " (Parent: 82  Sibling: 33  Child: 0   PropPtr: 0x0E0C)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 4 bytes]: Data = 21 A4 95 C7
+    -> Property ID #17 [Size: 2 bytes]: Data = 73 44
+    -> Property ID #11 [Size: 2 bytes]: Data = 95 CD
+    -> Property ID #05 [Size: 3 bytes]: Data = EE 5C 83
+  Object #033: "White Cliffs Beach            " (Parent: 82  Sibling: 34  Child: 0   PropPtr: 0x0E2B)
+    -> Active Attributes: NONE
+    -> Property ID #29 [Size: 4 bytes]: Data = 27 A4 95 C7
+    -> Property ID #28 [Size: 4 bytes]: Data = 20 A4 95 C7
+    -> Property ID #17 [Size: 2 bytes]: Data = 73 44
+    -> Property ID #11 [Size: 2 bytes]: Data = 95 98
+    -> Property ID #05 [Size: 3 bytes]: Data = EE 5C 83
+  Object #034: "Frigid River                  " (Parent: 82  Sibling: 35  Child: 0   PropPtr: 0x0E4F)
+    -> Active Attributes: NONE
+    -> Property ID #29 [Size: 1 bytes]: Data = 21
+    -> Property ID #23 [Size: 2 bytes]: Data = 95 1A
+    -> Property ID #22 [Size: 1 bytes]: Data = 82
+    -> Property ID #19 [Size: 1 bytes]: Data = 21
+    -> Property ID #11 [Size: 2 bytes]: Data = 95 72
+    -> Property ID #05 [Size: 2 bytes]: Data = EE 83
+  Object #035: "Frigid River                  " (Parent: 82  Sibling: 36  Child: 0   PropPtr: 0x0E66)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 2 bytes]: Data = 95 27
+    -> Property ID #29 [Size: 2 bytes]: Data = 95 65
+    -> Property ID #23 [Size: 2 bytes]: Data = 95 1A
+    -> Property ID #22 [Size: 1 bytes]: Data = 22
+    -> Property ID #19 [Size: 2 bytes]: Data = 95 5B
+    -> Property ID #11 [Size: 2 bytes]: Data = 95 34
+    -> Property ID #05 [Size: 2 bytes]: Data = EE 83
+  Object #036: "Frigid River                  " (Parent: 82  Sibling: 140 Child: 0   PropPtr: 0x0E82)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 2 bytes]: Data = 95 27
+    -> Property ID #29 [Size: 1 bytes]: Data = 8C
+    -> Property ID #23 [Size: 2 bytes]: Data = 95 1A
+    -> Property ID #22 [Size: 1 bytes]: Data = 23
+    -> Property ID #19 [Size: 1 bytes]: Data = 8C
+    -> Property ID #11 [Size: 2 bytes]: Data = 94 FC
+    -> Property ID #05 [Size: 2 bytes]: Data = EE 83
+  Object #037: "Chasm                         " (Parent: 82  Sibling: 38  Child: 0   PropPtr: 0x0E9C)
+    -> Active Attributes: NONE
+    -> Property ID #28 [Size: 1 bytes]: Data = 26
+    -> Property ID #27 [Size: 1 bytes]: Data = 32
+    -> Property ID #24 [Size: 1 bytes]: Data = 29
+    -> Property ID #23 [Size: 1 bytes]: Data = 29
+    -> Property ID #22 [Size: 2 bytes]: Data = 93 12
+    -> Property ID #11 [Size: 2 bytes]: Data = 92 EF
+    -> Property ID #05 [Size: 2 bytes]: Data = B0 49
+    -> Property ID #04 [Size: 4 bytes]: Data = 3E 0E 7C 52
+  Object #038: "North-South Passage           " (Parent: 82  Sibling: 138 Child: 0   PropPtr: 0x0EB8)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 25
+    -> Property ID #28 [Size: 1 bytes]: Data = 6B
+    -> Property ID #27 [Size: 1 bytes]: Data = 28
+    -> Property ID #11 [Size: 2 bytes]: Data = 92 DD
+  Object #039: "Damp Cave                     " (Parent: 82  Sibling: 40  Child: 0   PropPtr: 0x0ED3)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 1 bytes]: Data = 21
+    -> Property ID #29 [Size: 1 bytes]: Data = 8A
+    -> Property ID #28 [Size: 2 bytes]: Data = 92 D5
+    -> Property ID #11 [Size: 2 bytes]: Data = 92 B4
+    -> Property ID #05 [Size: 1 bytes]: Data = B0
+  Object #040: "Deep Canyon                   " (Parent: 82  Sibling: 107 Child: 0   PropPtr: 0x0EE9)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 1 bytes]: Data = D7
+    -> Property ID #26 [Size: 1 bytes]: Data = 32
+    -> Property ID #24 [Size: 1 bytes]: Data = 26
+    -> Property ID #22 [Size: 1 bytes]: Data = 8A
+    -> Property ID #17 [Size: 2 bytes]: Data = 66 F2
+    -> Property ID #05 [Size: 1 bytes]: Data = 49
+  Object #041: "East-West Passage             " (Parent: 82  Sibling: 187 Child: 0   PropPtr: 0x0F02)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 25
+    -> Property ID #30 [Size: 1 bytes]: Data = 6B
+    -> Property ID #29 [Size: 1 bytes]: Data = 66
+    -> Property ID #22 [Size: 1 bytes]: Data = 25
+    -> Property ID #13 [Size: 2 bytes]: Data = 00 05
+    -> Property ID #11 [Size: 2 bytes]: Data = 92 79
+    -> Property ID #05 [Size: 1 bytes]: Data = 49
+  Object #042: "Twisting Passage              " (Parent: 82  Sibling: 43  Child: 0   PropPtr: 0x0F22)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 96
+    -> Property ID #30 [Size: 1 bytes]: Data = 2F
+    -> Property ID #11 [Size: 2 bytes]: Data = 92 4F
+  Object #043: "Winding Passage               " (Parent: 82  Sibling: 44  Child: 0   PropPtr: 0x0F37)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 98
+    -> Property ID #30 [Size: 1 bytes]: Data = 2E
+    -> Property ID #11 [Size: 2 bytes]: Data = 92 4F
+  Object #044: "Narrow Passage                " (Parent: 82  Sibling: 45  Child: 0   PropPtr: 0x0F4C)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 6B
+    -> Property ID #28 [Size: 1 bytes]: Data = 98
+    -> Property ID #11 [Size: 2 bytes]: Data = 92 32
+  Object #045: "Cold Passage                  " (Parent: 82  Sibling: 46  Child: 0   PropPtr: 0x0F61)
+    -> Active Attributes: NONE
+    -> Property ID #29 [Size: 1 bytes]: Data = 0F
+    -> Property ID #28 [Size: 1 bytes]: Data = 96
+    -> Property ID #11 [Size: 2 bytes]: Data = 92 16
+  Object #046: "Cave                          " (Parent: 82  Sibling: 47  Child: 0   PropPtr: 0x0F74)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 98
+    -> Property ID #29 [Size: 1 bytes]: Data = 2B
+    -> Property ID #22 [Size: 1 bytes]: Data = E8
+    -> Property ID #17 [Size: 2 bytes]: Data = 70 A5
+    -> Property ID #11 [Size: 2 bytes]: Data = 91 FE
+    -> Property ID #05 [Size: 1 bytes]: Data = 49
+  Object #047: "Cave                          " (Parent: 82  Sibling: 152 Child: 0   PropPtr: 0x0F88)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 96
+    -> Property ID #29 [Size: 1 bytes]: Data = 2A
+    -> Property ID #28 [Size: 1 bytes]: Data = BB
+    -> Property ID #22 [Size: 1 bytes]: Data = BB
+    -> Property ID #11 [Size: 2 bytes]: Data = 91 EC
+    -> Property ID #05 [Size: 1 bytes]: Data = 49
+  Object #048: "Stream                        " (Parent: 82  Sibling: 49  Child: 0   PropPtr: 0x0F9B)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 1 bytes]: Data = 64
+    -> Property ID #29 [Size: 2 bytes]: Data = 91 E4
+    -> Property ID #23 [Size: 2 bytes]: Data = 91 E4
+    -> Property ID #22 [Size: 1 bytes]: Data = 64
+    -> Property ID #19 [Size: 1 bytes]: Data = 31
+    -> Property ID #11 [Size: 2 bytes]: Data = 91 B4
+    -> Property ID #05 [Size: 1 bytes]: Data = EE
+    -> Property ID #04 [Size: 4 bytes]: Data = 4B 12 7C 39
+  Object #049: "Stream View                   " (Parent: 82  Sibling: 172 Child: 0   PropPtr: 0x0FB9)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 1 bytes]: Data = 32
+    -> Property ID #29 [Size: 2 bytes]: Data = 91 A5
+    -> Property ID #11 [Size: 2 bytes]: Data = 91 86
+    -> Property ID #05 [Size: 1 bytes]: Data = EE
+    -> Property ID #04 [Size: 4 bytes]: Data = 4B 12 7C 39
+  Object #050: "Reservoir South               " (Parent: 82  Sibling: 190 Child: 0   PropPtr: 0x0FD4)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 4 bytes]: Data = 64 A0 91 7B
+    -> Property ID #30 [Size: 1 bytes]: Data = D7
+    -> Property ID #29 [Size: 1 bytes]: Data = 31
+    -> Property ID #25 [Size: 1 bytes]: Data = 28
+    -> Property ID #24 [Size: 1 bytes]: Data = 25
+    -> Property ID #17 [Size: 2 bytes]: Data = 60 87
+    -> Property ID #05 [Size: 1 bytes]: Data = EE
+    -> Property ID #04 [Size: 8 bytes]: Data = 44 4A 7C 19 3E 0E 7C 52
+  Object #051: "Strange Passage               " (Parent: 82  Sibling: 185 Child: 0   PropPtr: 0x0FFD)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 1 bytes]: Data = C1
+    -> Property ID #29 [Size: 1 bytes]: Data = B9
+    -> Property ID #21 [Size: 1 bytes]: Data = B9
+    -> Property ID #11 [Size: 2 bytes]: Data = 91 28
+  Object #052: "Maze                          " (Parent: 82  Sibling: 53  Child: 0   PropPtr: 0x1014)
+    -> Active Attributes: NONE
+    -> Property ID #29 [Size: 1 bytes]: Data = 35
+    -> Property ID #28 [Size: 1 bytes]: Data = 3F
+    -> Property ID #25 [Size: 1 bytes]: Data = B9
+    -> Property ID #11 [Size: 2 bytes]: Data = 90 CD
+  Object #053: "Maze                          " (Parent: 82  Sibling: 54  Child: 0   PropPtr: 0x1023)
+    -> Active Attributes: NONE
+    -> Property ID #29 [Size: 1 bytes]: Data = 34
+    -> Property ID #28 [Size: 1 bytes]: Data = 3F
+    -> Property ID #27 [Size: 1 bytes]: Data = 3F
+    -> Property ID #26 [Size: 1 bytes]: Data = 35
+    -> Property ID #11 [Size: 2 bytes]: Data = 90 CD
+  Object #054: "Maze                          " (Parent: 82  Sibling: 55  Child: 0   PropPtr: 0x1034)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 1 bytes]: Data = 3C
+    -> Property ID #29 [Size: 1 bytes]: Data = 3A
+    -> Property ID #28 [Size: 1 bytes]: Data = 3B
+    -> Property ID #22 [Size: 1 bytes]: Data = 38
+    -> Property ID #11 [Size: 2 bytes]: Data = 90 CD
+  Object #055: "Dead End                      " (Parent: 82  Sibling: 56  Child: 0   PropPtr: 0x1045)
+    -> Active Attributes: NONE
+    -> Property ID #28 [Size: 1 bytes]: Data = 38
+    -> Property ID #11 [Size: 2 bytes]: Data = 90 E0
+  Object #056: "Maze                          " (Parent: 82  Sibling: 57  Child: 0   PropPtr: 0x1054)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 37
+    -> Property ID #30 [Size: 1 bytes]: Data = 36
+    -> Property ID #24 [Size: 1 bytes]: Data = 3A
+    -> Property ID #23 [Size: 1 bytes]: Data = 3C
+    -> Property ID #22 [Size: 3 bytes]: Data = 57 D3 00
+    -> Property ID #11 [Size: 2 bytes]: Data = 90 CD
+  Object #057: "Grating Room                  " (Parent: 82  Sibling: 58  Child: 0   PropPtr: 0x1069)
+    -> Active Attributes: NONE
+    -> Property ID #24 [Size: 1 bytes]: Data = 3A
+    -> Property ID #23 [Size: 5 bytes]: Data = 8F AE 91 11 00
+    -> Property ID #17 [Size: 2 bytes]: Data = 56 DF
+    -> Property ID #05 [Size: 1 bytes]: Data = AE
+  Object #058: "Maze                          " (Parent: 82  Sibling: 59  Child: 0   PropPtr: 0x1080)
+    -> Active Attributes: NONE
+    -> Property ID #27 [Size: 1 bytes]: Data = 39
+    -> Property ID #26 [Size: 1 bytes]: Data = 36
+    -> Property ID #24 [Size: 1 bytes]: Data = 38
+    -> Property ID #22 [Size: 1 bytes]: Data = 3B
+    -> Property ID #11 [Size: 2 bytes]: Data = 90 CD
+  Object #059: "Maze                          " (Parent: 82  Sibling: 60  Child: 0   PropPtr: 0x1091)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 1 bytes]: Data = 3C
+    -> Property ID #29 [Size: 1 bytes]: Data = 36
+    -> Property ID #23 [Size: 1 bytes]: Data = 3A
+    -> Property ID #11 [Size: 2 bytes]: Data = 90 CD
+  Object #060: "Maze                          " (Parent: 82  Sibling: 61  Child: 0   PropPtr: 0x10A0)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 40
+    -> Property ID #30 [Size: 1 bytes]: Data = 3B
+    -> Property ID #29 [Size: 1 bytes]: Data = 38
+    -> Property ID #28 [Size: 1 bytes]: Data = 36
+    -> Property ID #26 [Size: 1 bytes]: Data = 3C
+    -> Property ID #22 [Size: 3 bytes]: Data = 57 D3 00
+    -> Property ID #11 [Size: 2 bytes]: Data = 90 CD
+  Object #061: "Dead End                      " (Parent: 82  Sibling: 62  Child: 0   PropPtr: 0x10B7)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 3E
+    -> Property ID #11 [Size: 2 bytes]: Data = 90 E0
+  Object #062: "Maze                          " (Parent: 82  Sibling: 63  Child: 0   PropPtr: 0x10C6)
+    -> Active Attributes: NONE
+    -> Property ID #29 [Size: 1 bytes]: Data = 3E
+    -> Property ID #27 [Size: 1 bytes]: Data = 3F
+    -> Property ID #25 [Size: 1 bytes]: Data = 3D
+    -> Property ID #11 [Size: 2 bytes]: Data = 90 CD
+  Object #063: "Maze                          " (Parent: 82  Sibling: 64  Child: 0   PropPtr: 0x10D5)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 1 bytes]: Data = 3E
+    -> Property ID #29 [Size: 1 bytes]: Data = 40
+    -> Property ID #28 [Size: 1 bytes]: Data = 34
+    -> Property ID #23 [Size: 1 bytes]: Data = 35
+    -> Property ID #22 [Size: 3 bytes]: Data = 57 D3 00
+    -> Property ID #11 [Size: 2 bytes]: Data = 90 CD
+  Object #064: "Maze                          " (Parent: 82  Sibling: 65  Child: 0   PropPtr: 0x10EA)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 1 bytes]: Data = 3F
+    -> Property ID #29 [Size: 1 bytes]: Data = 40
+    -> Property ID #23 [Size: 1 bytes]: Data = 3C
+    -> Property ID #22 [Size: 1 bytes]: Data = A7
+    -> Property ID #11 [Size: 2 bytes]: Data = 90 CD
+  Object #065: "Dead End                      " (Parent: 82  Sibling: 167 Child: 0   PropPtr: 0x10FB)
+    -> Active Attributes: NONE
+    -> Property ID #29 [Size: 1 bytes]: Data = A7
+    -> Property ID #11 [Size: 2 bytes]: Data = 90 E0
+  Object #066: "Dead End                      " (Parent: 82  Sibling: 67  Child: 0   PropPtr: 0x110A)
+    -> Active Attributes: NONE
+    -> Property ID #28 [Size: 1 bytes]: Data = 43
+    -> Property ID #11 [Size: 2 bytes]: Data = 90 E0
+  Object #067: "Maze                          " (Parent: 82  Sibling: 68  Child: 0   PropPtr: 0x1119)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 46
+    -> Property ID #30 [Size: 1 bytes]: Data = 42
+    -> Property ID #29 [Size: 1 bytes]: Data = 44
+    -> Property ID #11 [Size: 2 bytes]: Data = 90 CD
+  Object #068: "Maze                          " (Parent: 82  Sibling: 69  Child: 0   PropPtr: 0x1128)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 43
+    -> Property ID #29 [Size: 1 bytes]: Data = 45
+    -> Property ID #23 [Size: 1 bytes]: Data = A7
+    -> Property ID #11 [Size: 2 bytes]: Data = 90 CD
+  Object #069: "Maze                          " (Parent: 82  Sibling: 70  Child: 0   PropPtr: 0x1137)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 1 bytes]: Data = 44
+    -> Property ID #28 [Size: 1 bytes]: Data = 46
+    -> Property ID #22 [Size: 3 bytes]: Data = 57 D3 00
+    -> Property ID #11 [Size: 2 bytes]: Data = 90 CD
+  Object #070: "Maze                          " (Parent: 82  Sibling: 94  Child: 0   PropPtr: 0x1148)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 46
+    -> Property ID #30 [Size: 1 bytes]: Data = 66
+    -> Property ID #29 [Size: 1 bytes]: Data = 43
+    -> Property ID #28 [Size: 1 bytes]: Data = 45
+    -> Property ID #11 [Size: 2 bytes]: Data = 90 CD
+  Object #071: "East of Chasm                 " (Parent: 82  Sibling: 102 Child: 0   PropPtr: 0x1159)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 48
+    -> Property ID #30 [Size: 1 bytes]: Data = 94
+    -> Property ID #22 [Size: 2 bytes]: Data = 90 2A
+    -> Property ID #11 [Size: 2 bytes]: Data = 90 09
+    -> Property ID #04 [Size: 4 bytes]: Data = 3E 0E 7C 52
+  Object #072: "Cellar                        " (Parent: 82  Sibling: 193 Child: 0   PropPtr: 0x1174)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 66
+    -> Property ID #29 [Size: 2 bytes]: Data = 8F BE
+    -> Property ID #28 [Size: 1 bytes]: Data = 47
+    -> Property ID #23 [Size: 5 bytes]: Data = C1 B7 00 00 00
+    -> Property ID #17 [Size: 2 bytes]: Data = 52 53
+    -> Property ID #13 [Size: 2 bytes]: Data = 00 19
+    -> Property ID #05 [Size: 3 bytes]: Data = B7 CD 49
+  Object #073: "stairs                        " (Parent: 249 Sibling: 13  Child: 0   PropPtr: 0x1193)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 8 bytes]: Data = 4A B7 4A EF 4A B0 4A BE
+    -> Property ID #17 [Size: 2 bytes]: Data = 28 6B
+    -> Property ID #16 [Size: 5 bytes]: Data = C7 F3 99 89 DC
+  Object #074: "Clearing                      " (Parent: 82  Sibling: 143 Child: 0   PropPtr: 0x11AB)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 4D
+    -> Property ID #30 [Size: 1 bytes]: Data = 19
+    -> Property ID #29 [Size: 1 bytes]: Data = 4F
+    -> Property ID #28 [Size: 1 bytes]: Data = 4C
+    -> Property ID #23 [Size: 2 bytes]: Data = 8E E2
+    -> Property ID #17 [Size: 2 bytes]: Data = 79 74
+    -> Property ID #11 [Size: 2 bytes]: Data = 8F 83
+    -> Property ID #05 [Size: 4 bytes]: Data = F1 F4 F3 F2
+  Object #075: "Forest Path                   " (Parent: 82  Sibling: 76  Child: 0   PropPtr: 0x11C9)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 8F
+    -> Property ID #30 [Size: 1 bytes]: Data = 4D
+    -> Property ID #29 [Size: 1 bytes]: Data = 4E
+    -> Property ID #28 [Size: 1 bytes]: Data = 51
+    -> Property ID #23 [Size: 1 bytes]: Data = 58
+    -> Property ID #17 [Size: 2 bytes]: Data = 79 74
+    -> Property ID #11 [Size: 2 bytes]: Data = 8F 4F
+    -> Property ID #05 [Size: 4 bytes]: Data = F1 F4 F3 F2
+  Object #076: "Forest                        " (Parent: 82  Sibling: 239 Child: 0   PropPtr: 0x11EA)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 4A
+    -> Property ID #30 [Size: 2 bytes]: Data = 8F 33
+    -> Property ID #29 [Size: 1 bytes]: Data = 4E
+    -> Property ID #28 [Size: 2 bytes]: Data = 8F 43
+    -> Property ID #26 [Size: 1 bytes]: Data = 50
+    -> Property ID #23 [Size: 2 bytes]: Data = 8E E2
+    -> Property ID #17 [Size: 2 bytes]: Data = 79 74
+    -> Property ID #11 [Size: 2 bytes]: Data = 8E FB
+    -> Property ID #05 [Size: 4 bytes]: Data = F1 F4 F3 F2
+  Object #077: "Forest                        " (Parent: 82  Sibling: 78  Child: 0   PropPtr: 0x120C)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 2 bytes]: Data = 8F 0A
+    -> Property ID #30 [Size: 1 bytes]: Data = EF
+    -> Property ID #29 [Size: 1 bytes]: Data = 4B
+    -> Property ID #28 [Size: 1 bytes]: Data = 4A
+    -> Property ID #23 [Size: 2 bytes]: Data = 8E E2
+    -> Property ID #17 [Size: 2 bytes]: Data = 79 74
+    -> Property ID #11 [Size: 2 bytes]: Data = 8E FB
+    -> Property ID #05 [Size: 4 bytes]: Data = F1 F4 F3 F2
+  Object #078: "Forest                        " (Parent: 82  Sibling: 79  Child: 0   PropPtr: 0x122B)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 8F
+    -> Property ID #30 [Size: 1 bytes]: Data = 4B
+    -> Property ID #29 [Size: 2 bytes]: Data = 8E EE
+    -> Property ID #28 [Size: 1 bytes]: Data = 4C
+    -> Property ID #23 [Size: 2 bytes]: Data = 8E E2
+    -> Property ID #17 [Size: 2 bytes]: Data = 79 74
+    -> Property ID #11 [Size: 2 bytes]: Data = 8E CA
+    -> Property ID #05 [Size: 4 bytes]: Data = F1 F4 F3 F2
+  Object #079: "Behind House                  " (Parent: 82  Sibling: 80  Child: 0   PropPtr: 0x124A)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 51
+    -> Property ID #30 [Size: 1 bytes]: Data = 4A
+    -> Property ID #29 [Size: 5 bytes]: Data = CB EB 00 00 00
+    -> Property ID #28 [Size: 1 bytes]: Data = 50
+    -> Property ID #26 [Size: 1 bytes]: Data = 51
+    -> Property ID #24 [Size: 1 bytes]: Data = 50
+    -> Property ID #21 [Size: 5 bytes]: Data = CB EB 00 00 00
+    -> Property ID #17 [Size: 2 bytes]: Data = 4A CA
+    -> Property ID #05 [Size: 2 bytes]: Data = F3 EB
+  Object #080: "South of House                " (Parent: 82  Sibling: 81  Child: 0   PropPtr: 0x1272)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 2 bytes]: Data = 8E A7
+    -> Property ID #30 [Size: 1 bytes]: Data = 4F
+    -> Property ID #29 [Size: 1 bytes]: Data = B4
+    -> Property ID #28 [Size: 1 bytes]: Data = 4C
+    -> Property ID #27 [Size: 1 bytes]: Data = 4F
+    -> Property ID #26 [Size: 1 bytes]: Data = B4
+    -> Property ID #11 [Size: 2 bytes]: Data = 8E B0
+    -> Property ID #05 [Size: 3 bytes]: Data = B6 FA F3
+  Object #081: "North of House                " (Parent: 82  Sibling: 178 Child: 0   PropPtr: 0x1292)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 4B
+    -> Property ID #30 [Size: 1 bytes]: Data = 4F
+    -> Property ID #29 [Size: 1 bytes]: Data = B4
+    -> Property ID #28 [Size: 2 bytes]: Data = 8E A7
+    -> Property ID #25 [Size: 1 bytes]: Data = 4F
+    -> Property ID #24 [Size: 1 bytes]: Data = B4
+    -> Property ID #11 [Size: 2 bytes]: Data = 8E 82
+    -> Property ID #05 [Size: 3 bytes]: Data = B6 FA F3
+  Object #082: "[Unnamed Object]              " (Parent: 0   Sibling: 0   Child: 180 PropPtr: 0x12B2)
+    -> Active Attributes: NONE
+    -> Property ID #21 [Size: 1 bytes]: Data = 52
+  Object #083: "broken clockwork canary       " (Parent: 86  Sibling: 0   Child: 0   PropPtr: 0x12B6)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 4 bytes]: Data = 3D AC 4C 62
+    -> Property ID #17 [Size: 2 bytes]: Data = 78 9F
+    -> Property ID #16 [Size: 4 bytes]: Data = E2 8B C2 8A
+    -> Property ID #14 [Size: 2 bytes]: Data = 8D E2
+    -> Property ID #12 [Size: 2 bytes]: Data = 00 01
+  Object #084: "golden clockwork canary       " (Parent: 87  Sibling: 0   Child: 0   PropPtr: 0x12DB)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 4 bytes]: Data = 3D AC 4C 62
+    -> Property ID #17 [Size: 2 bytes]: Data = 78 9F
+    -> Property ID #16 [Size: 3 bytes]: Data = 8B C2 8A
+    -> Property ID #14 [Size: 2 bytes]: Data = 8D A6
+    -> Property ID #13 [Size: 2 bytes]: Data = 00 06
+    -> Property ID #12 [Size: 2 bytes]: Data = 00 04
+  Object #085: "beautiful brass bauble        " (Parent: 0   Sibling: 0   Child: 0   PropPtr: 0x1302)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 4 bytes]: Data = 3C 47 4C 62
+    -> Property ID #16 [Size: 2 bytes]: Data = E9 FB
+    -> Property ID #13 [Size: 2 bytes]: Data = 00 01
+    -> Property ID #12 [Size: 2 bytes]: Data = 00 01
+  Object #086: "broken jewel-encrusted egg    " (Parent: 0   Sibling: 0   Child: 83  PropPtr: 0x1322)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 4 bytes]: Data = 40 06 4C 62
+    -> Property ID #16 [Size: 4 bytes]: Data = E2 8E 8D 8C
+    -> Property ID #12 [Size: 2 bytes]: Data = 00 02
+    -> Property ID #11 [Size: 2 bytes]: Data = 8D 9C
+    -> Property ID #10 [Size: 2 bytes]: Data = 00 06
+  Object #087: "jewel-encrusted egg           " (Parent: 89  Sibling: 0   Child: 84  PropPtr: 0x1349)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 4 bytes]: Data = 40 06 4C 62
+    -> Property ID #17 [Size: 2 bytes]: Data = 77 B8
+    -> Property ID #16 [Size: 3 bytes]: Data = 8E 8D A6
+    -> Property ID #14 [Size: 2 bytes]: Data = 8D 40
+    -> Property ID #13 [Size: 2 bytes]: Data = 00 05
+    -> Property ID #12 [Size: 2 bytes]: Data = 00 05
+    -> Property ID #10 [Size: 2 bytes]: Data = 00 06
+  Object #088: "Up a Tree                     " (Parent: 82  Sibling: 75  Child: 89  PropPtr: 0x1371)
+    -> Active Attributes: NONE
+    -> Property ID #23 [Size: 2 bytes]: Data = 8F 7B
+    -> Property ID #22 [Size: 1 bytes]: Data = 4B
+    -> Property ID #17 [Size: 2 bytes]: Data = 77 0D
+    -> Property ID #05 [Size: 4 bytes]: Data = F1 F2 F4 F3
+  Object #089: "bird's nest                   " (Parent: 88  Sibling: 0   Child: 87  PropPtr: 0x1388)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 2 bytes]: Data = 46 11
+    -> Property ID #16 [Size: 1 bytes]: Data = 8E
+    -> Property ID #14 [Size: 2 bytes]: Data = 8D 32
+    -> Property ID #10 [Size: 2 bytes]: Data = 00 14
+  Object #090: "control panel                 " (Parent: 215 Sibling: 184 Child: 0   PropPtr: 0x139D)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 2 bytes]: Data = 46 E3
+    -> Property ID #16 [Size: 1 bytes]: Data = 8F
+  Object #091: "wrench                        " (Parent: 199 Sibling: 99  Child: 0   PropPtr: 0x13AE)
+    -> Active Attributes: CONTAINER
+    -> Property ID #18 [Size: 6 bytes]: Data = 4D E3 4C 0E 4C 1C
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 0A
+  Object #092: "white cliffs                  " (Parent: 249 Sibling: 93  Child: 0   PropPtr: 0x13BE)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 4 bytes]: Data = 3E 4D 3E 54
+    -> Property ID #17 [Size: 2 bytes]: Data = 79 8A
+    -> Property ID #16 [Size: 1 bytes]: Data = FC
+  Object #093: "cliff                         " (Parent: 249 Sibling: 117 Child: 0   PropPtr: 0x13D2)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 8 bytes]: Data = 4D 65 3E 4D 4D 6C 44 AC
+    -> Property ID #17 [Size: 2 bytes]: Data = 79 99
+    -> Property ID #16 [Size: 2 bytes]: Data = 91 90
+  Object #094: "Studio                        " (Parent: 82  Sibling: 148 Child: 95  PropPtr: 0x13E7)
+    -> Active Attributes: NONE
+    -> Property ID #28 [Size: 1 bytes]: Data = 94
+    -> Property ID #23 [Size: 3 bytes]: Data = 52 BC 00
+    -> Property ID #11 [Size: 2 bytes]: Data = 90 64
+    -> Property ID #05 [Size: 1 bytes]: Data = EA
+    -> Property ID #04 [Size: 8 bytes]: Data = 3F 9D 7C B4 46 CE 7C C3
+  Object #095: "ZORK owner's manual           " (Parent: 94  Sibling: 0   Child: 0   PropPtr: 0x1403)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 6 bytes]: Data = 45 5B 47 4C 46 EA
+    -> Property ID #16 [Size: 3 bytes]: Data = 93 92 F4
+    -> Property ID #14 [Size: 2 bytes]: Data = 8C C5
+    -> Property ID #08 [Size: 2 bytes]: Data = 8C D4
+  Object #096: "Engravings Cave               " (Parent: 82  Sibling: 230 Child: 97  PropPtr: 0x1426)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 1 bytes]: Data = 85
+    -> Property ID #26 [Size: 1 bytes]: Data = 6B
+    -> Property ID #11 [Size: 2 bytes]: Data = 93 70
+  Object #097: "wall with engravings          " (Parent: 96  Sibling: 0   Child: 0   PropPtr: 0x143B)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 6 bytes]: Data = 4D 65 40 3E 43 94
+    -> Property ID #16 [Size: 2 bytes]: Data = B7 DF
+    -> Property ID #11 [Size: 2 bytes]: Data = 8C 4F
+    -> Property ID #08 [Size: 2 bytes]: Data = 8C 5A
+  Object #098: "viscous material              " (Parent: 99  Sibling: 0   Child: 0   PropPtr: 0x1457)
+    -> Active Attributes: CONTAINER
+    -> Property ID #18 [Size: 4 bytes]: Data = 45 8C 42 A6
+    -> Property ID #17 [Size: 2 bytes]: Data = 5F EF
+    -> Property ID #16 [Size: 1 bytes]: Data = 94
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 06
+  Object #099: "tube                          " (Parent: 199 Sibling: 123 Child: 98  PropPtr: 0x1472)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 6 bytes]: Data = 4C 93 4C 23 46 FF
+    -> Property ID #17 [Size: 2 bytes]: Data = 60 06
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 05
+    -> Property ID #11 [Size: 2 bytes]: Data = 8C 23
+    -> Property ID #10 [Size: 2 bytes]: Data = 00 07
+    -> Property ID #08 [Size: 2 bytes]: Data = 8C 34
+  Object #100: "Reservoir                     " (Parent: 82  Sibling: 50  Child: 101 PropPtr: 0x148E)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = AC
+    -> Property ID #29 [Size: 1 bytes]: Data = 30
+    -> Property ID #28 [Size: 1 bytes]: Data = 32
+    -> Property ID #23 [Size: 1 bytes]: Data = 30
+    -> Property ID #22 [Size: 2 bytes]: Data = 91 7F
+    -> Property ID #17 [Size: 2 bytes]: Data = 61 7E
+    -> Property ID #05 [Size: 1 bytes]: Data = EE
+    -> Property ID #04 [Size: 4 bytes]: Data = 4B 12 7C 39
+  Object #101: "trunk of jewels               " (Parent: 100 Sibling: 0   Child: 0   PropPtr: 0x14AD)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 8 bytes]: Data = 4C 8C 3E 15 43 EF 4C 62
+    -> Property ID #17 [Size: 2 bytes]: Data = 84 E1
+    -> Property ID #16 [Size: 1 bytes]: Data = B7
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 23
+    -> Property ID #14 [Size: 2 bytes]: Data = 8B FF
+    -> Property ID #13 [Size: 2 bytes]: Data = 00 0F
+    -> Property ID #12 [Size: 2 bytes]: Data = 00 05
+    -> Property ID #11 [Size: 2 bytes]: Data = 8C 13
+  Object #102: "The Troll Room                " (Parent: 82  Sibling: 72  Child: 217 PropPtr: 0x14D6)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 4 bytes]: Data = 29 9D 8F FC
+    -> Property ID #29 [Size: 4 bytes]: Data = 46 9D 8F FC
+    -> Property ID #28 [Size: 1 bytes]: Data = 48
+    -> Property ID #17 [Size: 2 bytes]: Data = 85 82
+    -> Property ID #11 [Size: 2 bytes]: Data = 8F D3
+  Object #103: "tour guidebook                " (Parent: 154 Sibling: 0   Child: 0   PropPtr: 0x14F2)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 8 bytes]: Data = 42 98 3D 04 3D 12 42 9F
+    -> Property ID #16 [Size: 2 bytes]: Data = 96 95
+    -> Property ID #14 [Size: 2 bytes]: Data = 8A DC
+    -> Property ID #08 [Size: 2 bytes]: Data = 8A F6
+  Object #104: "torch                         " (Parent: 106 Sibling: 0   Child: 0   PropPtr: 0x1510)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 6 bytes]: Data = 4C 2A 43 D3 4C 62
+    -> Property ID #17 [Size: 2 bytes]: Data = 58 86
+    -> Property ID #16 [Size: 2 bytes]: Data = 98 97
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 14
+    -> Property ID #14 [Size: 2 bytes]: Data = 8A C9
+    -> Property ID #13 [Size: 2 bytes]: Data = 00 0E
+    -> Property ID #12 [Size: 2 bytes]: Data = 00 06
+  Object #105: "Torch Room                    " (Parent: 82  Sibling: 133 Child: 106 PropPtr: 0x152F)
+    -> Active Attributes: NONE
+    -> Property ID #28 [Size: 1 bytes]: Data = DC
+    -> Property ID #23 [Size: 2 bytes]: Data = 93 A4
+    -> Property ID #22 [Size: 1 bytes]: Data = DC
+    -> Property ID #17 [Size: 2 bytes]: Data = 59 A4
+    -> Property ID #05 [Size: 1 bytes]: Data = 49
+    -> Property ID #04 [Size: 4 bytes]: Data = 3F 8F 7C 8F
+  Object #106: "pedestal                      " (Parent: 105 Sibling: 0   Child: 104 PropPtr: 0x1548)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 2 bytes]: Data = 47 29
+    -> Property ID #17 [Size: 2 bytes]: Data = 85 1F
+    -> Property ID #16 [Size: 2 bytes]: Data = FC 99
+    -> Property ID #10 [Size: 2 bytes]: Data = 00 1E
+  Object #107: "Round Room                    " (Parent: 82  Sibling: 41  Child: 114 PropPtr: 0x155C)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 26
+    -> Property ID #30 [Size: 1 bytes]: Data = 8A
+    -> Property ID #29 [Size: 1 bytes]: Data = 29
+    -> Property ID #28 [Size: 1 bytes]: Data = 2C
+    -> Property ID #25 [Size: 1 bytes]: Data = 60
+    -> Property ID #11 [Size: 2 bytes]: Data = 92 91
+  Object #108: "tan label                     " (Parent: 156 Sibling: 0   Child: 0   PropPtr: 0x1571)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 6 bytes]: Data = 44 3C 41 09 47 CA
+    -> Property ID #16 [Size: 2 bytes]: Data = 9E 9D
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 02
+    -> Property ID #08 [Size: 2 bytes]: Data = 8A 06
+  Object #109: "ancient map                   " (Parent: 194 Sibling: 0   Child: 0   PropPtr: 0x1589)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 4 bytes]: Data = 46 F1 45 62
+    -> Property ID #16 [Size: 3 bytes]: Data = 9F B7 DF
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 02
+    -> Property ID #14 [Size: 2 bytes]: Data = 89 B8
+    -> Property ID #08 [Size: 2 bytes]: Data = 89 CB
+  Object #110: "sword                         " (Parent: 193 Sibling: 111 Child: 0   PropPtr: 0x15A5)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 8 bytes]: Data = 4B 6D 46 8F 42 21 3C 9B
+    -> Property ID #17 [Size: 2 bytes]: Data = 70 D3
+    -> Property ID #16 [Size: 3 bytes]: Data = A0 B7 9F
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 1E
+    -> Property ID #14 [Size: 2 bytes]: Data = 89 A3
+    -> Property ID #12 [Size: 2 bytes]: Data = 00 00
+  Object #111: "wooden door                   " (Parent: 193 Sibling: 164 Child: 0   PropPtr: 0x15C4)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 6 bytes]: Data = 3F 9D 44 B3 4D EA
+    -> Property ID #17 [Size: 2 bytes]: Data = 6D 57
+    -> Property ID #16 [Size: 4 bytes]: Data = DD A3 A2 A1
+    -> Property ID #08 [Size: 2 bytes]: Data = 89 8E
+  Object #112: "switch                        " (Parent: 157 Sibling: 0   Child: 0   PropPtr: 0x15E0)
+    -> Active Attributes: TAKEABLE, OPEN
+    -> Property ID #18 [Size: 2 bytes]: Data = 4B 66
+    -> Property ID #17 [Size: 2 bytes]: Data = 72 98
+  Object #113: "stiletto                      " (Parent: 114 Sibling: 0   Child: 0   PropPtr: 0x15EC)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 2 bytes]: Data = 4A F6
+    -> Property ID #17 [Size: 2 bytes]: Data = 53 D7
+    -> Property ID #16 [Size: 1 bytes]: Data = A4
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 0A
+  Object #114: "thief                         " (Parent: 107 Sibling: 0   Child: 115 PropPtr: 0x15FF)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 8 bytes]: Data = 4B C8 48 B8 45 4D 47 37
+    -> Property ID #17 [Size: 2 bytes]: Data = 69 D4
+    -> Property ID #16 [Size: 3 bytes]: Data = 9C 9B 9A
+    -> Property ID #11 [Size: 2 bytes]: Data = 8A A5
+    -> Property ID #07 [Size: 2 bytes]: Data = 00 05
+  Object #115: "large bag                     " (Parent: 114 Sibling: 113 Child: 0   PropPtr: 0x161B)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 2 bytes]: Data = 3C 08
+    -> Property ID #17 [Size: 2 bytes]: Data = 6C 3C
+    -> Property ID #16 [Size: 2 bytes]: Data = F9 A5
+  Object #116: "beautiful jeweled scarab      " (Parent: 126 Sibling: 0   Child: 0   PropPtr: 0x162A)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 8 bytes]: Data = 49 28 3D 74 3C 55 4C 62
+    -> Property ID #16 [Size: 3 bytes]: Data = FB A7 A6
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 08
+    -> Property ID #13 [Size: 2 bytes]: Data = 00 05
+    -> Property ID #12 [Size: 2 bytes]: Data = 00 05
+  Object #117: "wooden ladder                 " (Parent: 249 Sibling: 131 Child: 0   PropPtr: 0x1652)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 2 bytes]: Data = 44 43
+    -> Property ID #16 [Size: 3 bytes]: Data = DD A8 F2
+  Object #118: "Dead End                      " (Parent: 82  Sibling: 20  Child: 119 PropPtr: 0x1665)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 14
+    -> Property ID #11 [Size: 2 bytes]: Data = 99 6C
+  Object #119: "small pile of coal            " (Parent: 118 Sibling: 0   Child: 0   PropPtr: 0x1674)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 6 bytes]: Data = 3E 77 47 5A 42 D7
+    -> Property ID #16 [Size: 1 bytes]: Data = F4
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 14
+  Object #120: "Sandy Beach                   " (Parent: 82  Sibling: 30  Child: 121 PropPtr: 0x168C)
+    -> Active Attributes: NONE
+    -> Property ID #28 [Size: 1 bytes]: Data = 1E
+    -> Property ID #27 [Size: 1 bytes]: Data = 7E
+    -> Property ID #11 [Size: 2 bytes]: Data = 96 6B
+    -> Property ID #05 [Size: 2 bytes]: Data = EE 83
+  Object #121: "shovel                        " (Parent: 120 Sibling: 0   Child: 0   PropPtr: 0x16A2)
+    -> Active Attributes: CONTAINER
+    -> Property ID #18 [Size: 6 bytes]: Data = 49 D0 4C 0E 4C 1C
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 0F
+  Object #122: "skeleton key                  " (Parent: 167 Sibling: 128 Child: 0   PropPtr: 0x16B2)
+    -> Active Attributes: CONTAINER
+    -> Property ID #18 [Size: 2 bytes]: Data = 43 FD
+    -> Property ID #16 [Size: 1 bytes]: Data = A9
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 0A
+  Object #123: "screwdriver                   " (Parent: 199 Sibling: 159 Child: 0   PropPtr: 0x16C4)
+    -> Active Attributes: CONTAINER
+    -> Property ID #18 [Size: 8 bytes]: Data = 49 52 4C 0E 4C 1C 3F C7
+    -> Property ID #16 [Size: 1 bytes]: Data = AA
+  Object #124: "Gas Room                      " (Parent: 82  Sibling: 22  Child: 125 PropPtr: 0x16D9)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 1 bytes]: Data = 13
+    -> Property ID #23 [Size: 1 bytes]: Data = 16
+    -> Property ID #17 [Size: 2 bytes]: Data = 71 01
+    -> Property ID #11 [Size: 2 bytes]: Data = 99 03
+    -> Property ID #05 [Size: 1 bytes]: Data = 49
+    -> Property ID #04 [Size: 8 bytes]: Data = 41 E9 7C D6 46 42 7C D6
+  Object #125: "sapphire-encrusted bracelet   " (Parent: 124 Sibling: 0   Child: 0   PropPtr: 0x16F6)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 8 bytes]: Data = 3D 27 43 E1 49 13 4C 62
+    -> Property ID #16 [Size: 1 bytes]: Data = AB
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 0A
+    -> Property ID #13 [Size: 2 bytes]: Data = 00 05
+    -> Property ID #12 [Size: 2 bytes]: Data = 00 05
+  Object #126: "Sandy Cave                    " (Parent: 82  Sibling: 120 Child: 127 PropPtr: 0x1720)
+    -> Active Attributes: NONE
+    -> Property ID #24 [Size: 1 bytes]: Data = 78
+    -> Property ID #11 [Size: 2 bytes]: Data = 96 9B
+  Object #127: "sand                          " (Parent: 126 Sibling: 116 Child: 0   PropPtr: 0x172F)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 2 bytes]: Data = 49 05
+    -> Property ID #17 [Size: 2 bytes]: Data = 76 E3
+  Object #128: "rusty knife                   " (Parent: 167 Sibling: 165 Child: 0   PropPtr: 0x173B)
+    -> Active Attributes: CONTAINER
+    -> Property ID #18 [Size: 4 bytes]: Data = 44 27 44 20
+    -> Property ID #17 [Size: 2 bytes]: Data = 57 FA
+    -> Property ID #16 [Size: 1 bytes]: Data = BB
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 14
+    -> Property ID #14 [Size: 2 bytes]: Data = 89 82
+  Object #129: "rope                          " (Parent: 201 Sibling: 0   Child: 0   PropPtr: 0x1755)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 6 bytes]: Data = 48 CD 42 EC 3E 85
+    -> Property ID #17 [Size: 2 bytes]: Data = 79 C6
+    -> Property ID #16 [Size: 1 bytes]: Data = F9
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 0A
+    -> Property ID #14 [Size: 2 bytes]: Data = 89 76
+  Object #130: "Frigid River                  " (Parent: 82  Sibling: 32  Child: 162 PropPtr: 0x176D)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 1 bytes]: Data = 78
+    -> Property ID #29 [Size: 1 bytes]: Data = 20
+    -> Property ID #23 [Size: 2 bytes]: Data = 95 1A
+    -> Property ID #22 [Size: 1 bytes]: Data = 1F
+    -> Property ID #19 [Size: 2 bytes]: Data = 96 1B
+    -> Property ID #17 [Size: 2 bytes]: Data = 76 C9
+    -> Property ID #11 [Size: 2 bytes]: Data = 95 E7
+    -> Property ID #05 [Size: 2 bytes]: Data = EE 83
+  Object #131: "river                         " (Parent: 249 Sibling: 132 Child: 0   PropPtr: 0x178A)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 2 bytes]: Data = 48 B1
+    -> Property ID #17 [Size: 2 bytes]: Data = 74 85
+    -> Property ID #16 [Size: 1 bytes]: Data = AC
+  Object #132: "rainbow                       " (Parent: 249 Sibling: 145 Child: 0   PropPtr: 0x1798)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 2 bytes]: Data = 48 2C
+    -> Property ID #17 [Size: 2 bytes]: Data = 74 14
+  Object #133: "Dome Room                     " (Parent: 82  Sibling: 175 Child: 134 PropPtr: 0x17A6)
+    -> Active Attributes: NONE
+    -> Property ID #29 [Size: 1 bytes]: Data = 60
+    -> Property ID #22 [Size: 4 bytes]: Data = 69 A3 93 96
+    -> Property ID #17 [Size: 2 bytes]: Data = 5A 06
+    -> Property ID #04 [Size: 4 bytes]: Data = 3F 8F 7C 8F
+  Object #134: "wooden railing                " (Parent: 133 Sibling: 0   Child: 0   PropPtr: 0x17BD)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 4 bytes]: Data = 48 25 48 1E
+    -> Property ID #16 [Size: 1 bytes]: Data = DD
+  Object #135: "prayer                        " (Parent: 220 Sibling: 0   Child: 0   PropPtr: 0x17D0)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 4 bytes]: Data = 47 BC 43 94
+    -> Property ID #16 [Size: 2 bytes]: Data = DF B7
+    -> Property ID #08 [Size: 2 bytes]: Data = 89 0C
+  Object #136: "End of Rainbow                " (Parent: 82  Sibling: 28  Child: 137 PropPtr: 0x17E1)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 4 bytes]: Data = 1C 9E 00 00
+    -> Property ID #27 [Size: 4 bytes]: Data = 1C 9E 00 00
+    -> Property ID #24 [Size: 1 bytes]: Data = 1B
+    -> Property ID #23 [Size: 4 bytes]: Data = 1C 9E 00 00
+    -> Property ID #11 [Size: 2 bytes]: Data = 96 DF
+    -> Property ID #05 [Size: 3 bytes]: Data = EE 84 83
+  Object #137: "pot of gold                   " (Parent: 136 Sibling: 0   Child: 0   PropPtr: 0x1805)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 6 bytes]: Data = 47 A7 42 3D 4C 62
+    -> Property ID #16 [Size: 1 bytes]: Data = C2
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 0F
+    -> Property ID #14 [Size: 2 bytes]: Data = 88 FF
+    -> Property ID #13 [Size: 2 bytes]: Data = 00 0A
+    -> Property ID #12 [Size: 2 bytes]: Data = 00 0A
+  Object #138: "Loud Room                     " (Parent: 82  Sibling: 39  Child: 139 PropPtr: 0x1824)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 1 bytes]: Data = 27
+    -> Property ID #29 [Size: 1 bytes]: Data = 6B
+    -> Property ID #23 [Size: 1 bytes]: Data = 28
+    -> Property ID #17 [Size: 2 bytes]: Data = 65 B3
+    -> Property ID #05 [Size: 1 bytes]: Data = 49
+  Object #139: "platinum bar                  " (Parent: 138 Sibling: 0   Child: 0   PropPtr: 0x1837)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 6 bytes]: Data = 3C 16 47 7D 4C 62
+    -> Property ID #16 [Size: 2 bytes]: Data = AD F9
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 14
+    -> Property ID #13 [Size: 2 bytes]: Data = 00 0A
+    -> Property ID #12 [Size: 2 bytes]: Data = 00 05
+    -> Property ID #11 [Size: 2 bytes]: Data = 88 F5
+  Object #140: "Dam Base                      " (Parent: 82  Sibling: 199 Child: 141 PropPtr: 0x1857)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = D7
+    -> Property ID #23 [Size: 1 bytes]: Data = D7
+    -> Property ID #11 [Size: 2 bytes]: Data = 94 B2
+    -> Property ID #05 [Size: 2 bytes]: Data = EE 83
+  Object #141: "pile of plastic               " (Parent: 140 Sibling: 0   Child: 0   PropPtr: 0x186B)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 8 bytes]: Data = 3C E1 47 5A 47 76 4D 11
+    -> Property ID #17 [Size: 2 bytes]: Data = 76 74
+    -> Property ID #16 [Size: 2 bytes]: Data = E4 B5
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 14
+    -> Property ID #11 [Size: 2 bytes]: Data = 88 E2
+  Object #142: "punctured boat                " (Parent: 0   Sibling: 0   Child: 0   PropPtr: 0x188C)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 6 bytes]: Data = 3C E1 47 5A 47 76
+    -> Property ID #17 [Size: 2 bytes]: Data = 74 4E
+    -> Property ID #16 [Size: 3 bytes]: Data = E4 AE F9
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 14
+  Object #143: "Clearing                      " (Parent: 82  Sibling: 88  Child: 144 PropPtr: 0x18A9)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 2 bytes]: Data = 8F 0A
+    -> Property ID #30 [Size: 1 bytes]: Data = 4D
+    -> Property ID #29 [Size: 1 bytes]: Data = 4E
+    -> Property ID #28 [Size: 1 bytes]: Data = 4B
+    -> Property ID #22 [Size: 3 bytes]: Data = 27 63 00
+    -> Property ID #17 [Size: 2 bytes]: Data = 56 98
+    -> Property ID #05 [Size: 2 bytes]: Data = F3 AE
+  Object #144: "pile of leaves                " (Parent: 143 Sibling: 0   Child: 0   PropPtr: 0x18C4)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 6 bytes]: Data = 44 A5 44 74 47 5A
+    -> Property ID #17 [Size: 2 bytes]: Data = 56 2D
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 19
+    -> Property ID #11 [Size: 2 bytes]: Data = 88 D9
+  Object #145: "pile of bodies                " (Parent: 249 Sibling: 174 Child: 0   PropPtr: 0x18E0)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 8 bytes]: Data = 3C E8 3C EF 48 72 47 5A
+    -> Property ID #17 [Size: 2 bytes]: Data = 6D 7B
+    -> Property ID #16 [Size: 1 bytes]: Data = AF
+  Object #146: "small piece of vitreous slag  " (Parent: 0   Sibling: 0   Child: 0   PropPtr: 0x18FA)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 6 bytes]: Data = 42 A6 47 4C 4A 1D
+    -> Property ID #17 [Size: 2 bytes]: Data = 73 00
+    -> Property ID #16 [Size: 2 bytes]: Data = F4 B0
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 0A
+  Object #147: "pair of candles               " (Parent: 212 Sibling: 0   Child: 0   PropPtr: 0x191C)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 4 bytes]: Data = 3D B3 46 DC
+    -> Property ID #17 [Size: 2 bytes]: Data = 6F AB
+    -> Property ID #16 [Size: 1 bytes]: Data = B1
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 0A
+    -> Property ID #14 [Size: 2 bytes]: Data = 88 CA
+  Object #148: "Gallery                       " (Parent: 82  Sibling: 71  Child: 149 PropPtr: 0x1938)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 5E
+    -> Property ID #29 [Size: 1 bytes]: Data = 47
+    -> Property ID #11 [Size: 2 bytes]: Data = 90 3A
+  Object #149: "painting                      " (Parent: 148 Sibling: 0   Child: 0   PropPtr: 0x1947)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 8 bytes]: Data = 46 D5 3B BB 3D BA 4C 62
+    -> Property ID #17 [Size: 2 bytes]: Data = 6E 07
+    -> Property ID #16 [Size: 1 bytes]: Data = FB
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 0F
+    -> Property ID #14 [Size: 2 bytes]: Data = 88 9E
+    -> Property ID #13 [Size: 2 bytes]: Data = 00 04
+    -> Property ID #12 [Size: 2 bytes]: Data = 00 06
+    -> Property ID #11 [Size: 2 bytes]: Data = 88 BD
+  Object #150: "Mirror Room                   " (Parent: 82  Sibling: 48  Child: 151 PropPtr: 0x196C)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 2D
+    -> Property ID #30 [Size: 1 bytes]: Data = 2F
+    -> Property ID #29 [Size: 1 bytes]: Data = 2A
+    -> Property ID #17 [Size: 2 bytes]: Data = 58 B4
+  Object #151: "mirror                        " (Parent: 150 Sibling: 0   Child: 0   PropPtr: 0x197F)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 6 bytes]: Data = 48 64 45 A8 40 45
+    -> Property ID #17 [Size: 2 bytes]: Data = 58 F6
+  Object #152: "Mirror Room                   " (Parent: 82  Sibling: 150 Child: 153 PropPtr: 0x198F)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 2C
+    -> Property ID #30 [Size: 1 bytes]: Data = 2E
+    -> Property ID #29 [Size: 1 bytes]: Data = 2B
+    -> Property ID #17 [Size: 2 bytes]: Data = 58 B4
+  Object #153: "mirror                        " (Parent: 152 Sibling: 0   Child: 0   PropPtr: 0x19A2)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 6 bytes]: Data = 48 64 45 A8 40 45
+    -> Property ID #17 [Size: 2 bytes]: Data = 58 F6
+  Object #154: "Dam Lobby                     " (Parent: 82  Sibling: 215 Child: 155 PropPtr: 0x19B2)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = C7
+    -> Property ID #30 [Size: 1 bytes]: Data = C7
+    -> Property ID #28 [Size: 1 bytes]: Data = D7
+    -> Property ID #11 [Size: 2 bytes]: Data = 94 2F
+  Object #155: "matchbook                     " (Parent: 154 Sibling: 103 Child: 0   PropPtr: 0x19C5)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 6 bytes]: Data = 45 77 45 85 45 7E
+    -> Property ID #17 [Size: 2 bytes]: Data = 6E A1
+    -> Property ID #16 [Size: 1 bytes]: Data = B2
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 02
+    -> Property ID #11 [Size: 2 bytes]: Data = 87 BB
+    -> Property ID #08 [Size: 2 bytes]: Data = 87 D1
+  Object #156: "magic boat                    " (Parent: 0   Sibling: 0   Child: 108 PropPtr: 0x19E2)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 4 bytes]: Data = 3C E1 48 17
+    -> Property ID #17 [Size: 2 bytes]: Data = 75 24
+    -> Property ID #16 [Size: 4 bytes]: Data = B5 B4 E4 B3
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 14
+    -> Property ID #10 [Size: 2 bytes]: Data = 00 64
+    -> Property ID #06 [Size: 2 bytes]: Data = 00 04
+  Object #157: "Machine Room                  " (Parent: 82  Sibling: 228 Child: 158 PropPtr: 0x1A02)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = E4
+    -> Property ID #17 [Size: 2 bytes]: Data = 71 CF
+  Object #158: "machine                       " (Parent: 157 Sibling: 112 Child: 0   PropPtr: 0x1A11)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 8 bytes]: Data = 45 2A 47 1B 3F D5 44 BA
+    -> Property ID #17 [Size: 2 bytes]: Data = 72 44
+    -> Property ID #10 [Size: 2 bytes]: Data = 00 32
+  Object #159: "leak                          " (Parent: 199 Sibling: 195 Child: 0   PropPtr: 0x1A28)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 6 bytes]: Data = 44 82 3F B9 47 68
+    -> Property ID #17 [Size: 2 bytes]: Data = 5F B9
+  Object #160: "small mailbox                 " (Parent: 180 Sibling: 0   Child: 161 PropPtr: 0x1A38)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 4 bytes]: Data = 45 3F 3D 20
+    -> Property ID #17 [Size: 2 bytes]: Data = 6E 94
+    -> Property ID #16 [Size: 1 bytes]: Data = F4
+    -> Property ID #10 [Size: 2 bytes]: Data = 00 0A
+  Object #161: "leaflet                       " (Parent: 160 Sibling: 0   Child: 0   PropPtr: 0x1A4D)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 8 bytes]: Data = 3B 60 44 7B 3D 0B 45 38
+    -> Property ID #16 [Size: 1 bytes]: Data = F4
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 02
+    -> Property ID #11 [Size: 2 bytes]: Data = 87 6E
+    -> Property ID #08 [Size: 2 bytes]: Data = 87 77
+  Object #162: "red buoy                      " (Parent: 130 Sibling: 0   Child: 163 PropPtr: 0x1A69)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 2 bytes]: Data = 3D 7B
+    -> Property ID #17 [Size: 2 bytes]: Data = 27 5D
+    -> Property ID #16 [Size: 1 bytes]: Data = E8
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 0A
+    -> Property ID #14 [Size: 2 bytes]: Data = 89 6A
+    -> Property ID #10 [Size: 2 bytes]: Data = 00 14
+  Object #163: "large emerald                 " (Parent: 162 Sibling: 0   Child: 0   PropPtr: 0x1A82)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 4 bytes]: Data = 40 22 4C 62
+    -> Property ID #16 [Size: 1 bytes]: Data = F9
+    -> Property ID #13 [Size: 2 bytes]: Data = 00 05
+    -> Property ID #12 [Size: 2 bytes]: Data = 00 0A
+  Object #164: "brass lantern                 " (Parent: 193 Sibling: 183 Child: 0   PropPtr: 0x1A97)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 6 bytes]: Data = 44 51 44 5F 44 C8
+    -> Property ID #17 [Size: 2 bytes]: Data = 6E 32
+    -> Property ID #16 [Size: 1 bytes]: Data = E9
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 0F
+    -> Property ID #14 [Size: 2 bytes]: Data = 87 4D
+    -> Property ID #11 [Size: 2 bytes]: Data = 87 5F
+  Object #165: "leather bag of coins          " (Parent: 167 Sibling: 166 Child: 0   PropPtr: 0x1AB8)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 6 bytes]: Data = 3C 08 3E 8C 4C 62
+    -> Property ID #17 [Size: 2 bytes]: Data = 84 DC
+    -> Property ID #16 [Size: 2 bytes]: Data = B7 B6
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 0F
+    -> Property ID #13 [Size: 2 bytes]: Data = 00 0A
+    -> Property ID #12 [Size: 2 bytes]: Data = 00 05
+    -> Property ID #11 [Size: 2 bytes]: Data = 87 3E
+  Object #166: "burned-out lantern            " (Parent: 167 Sibling: 0   Child: 0   PropPtr: 0x1AE1)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 4 bytes]: Data = 44 5F 44 51
+    -> Property ID #16 [Size: 4 bytes]: Data = BB BA B9 B8
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 14
+    -> Property ID #14 [Size: 2 bytes]: Data = 87 2E
+  Object #167: "Maze                          " (Parent: 82  Sibling: 66  Child: 168 PropPtr: 0x1AFF)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 44
+    -> Property ID #30 [Size: 1 bytes]: Data = 41
+    -> Property ID #24 [Size: 1 bytes]: Data = 40
+    -> Property ID #11 [Size: 2 bytes]: Data = 90 EB
+  Object #168: "skeleton                      " (Parent: 167 Sibling: 122 Child: 0   PropPtr: 0x1B0E)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 6 bytes]: Data = 3C FD 4A 01 3C EF
+    -> Property ID #17 [Size: 2 bytes]: Data = 58 31
+  Object #169: "nasty knife                   " (Parent: 202 Sibling: 0   Child: 0   PropPtr: 0x1B20)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 6 bytes]: Data = 44 27 44 20 3C 9B
+    -> Property ID #17 [Size: 2 bytes]: Data = 58 2C
+    -> Property ID #16 [Size: 2 bytes]: Data = BD BC
+    -> Property ID #14 [Size: 2 bytes]: Data = 87 23
+  Object #170: "jade figurine                 " (Parent: 222 Sibling: 0   Child: 0   PropPtr: 0x1B3A)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 4 bytes]: Data = 40 E6 4C 62
+    -> Property ID #16 [Size: 2 bytes]: Data = BF BE
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 0A
+    -> Property ID #13 [Size: 2 bytes]: Data = 00 05
+    -> Property ID #12 [Size: 2 bytes]: Data = 00 05
+    -> Property ID #11 [Size: 2 bytes]: Data = 87 17
+  Object #171: "huge diamond                  " (Parent: 0   Sibling: 0   Child: 0   PropPtr: 0x1B5A)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 4 bytes]: Data = 3F 57 4C 62
+    -> Property ID #16 [Size: 2 bytes]: Data = C8 C0
+    -> Property ID #13 [Size: 2 bytes]: Data = 00 0A
+    -> Property ID #12 [Size: 2 bytes]: Data = 00 0A
+    -> Property ID #11 [Size: 2 bytes]: Data = 87 08
+  Object #172: "Reservoir North               " (Parent: 82  Sibling: 100 Child: 173 PropPtr: 0x1B75)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = BB
+    -> Property ID #28 [Size: 4 bytes]: Data = 64 A0 91 7B
+    -> Property ID #17 [Size: 2 bytes]: Data = 61 FD
+    -> Property ID #05 [Size: 2 bytes]: Data = EE 49
+    -> Property ID #04 [Size: 4 bytes]: Data = 44 4A 7C 19
+  Object #173: "hand-held air pump            " (Parent: 172 Sibling: 0   Child: 0   PropPtr: 0x1B95)
+    -> Active Attributes: CONTAINER
+    -> Property ID #18 [Size: 8 bytes]: Data = 47 DF 3B 75 4C 0E 4C 1C
+    -> Property ID #16 [Size: 2 bytes]: Data = F4 C1
+  Object #174: "grating                       " (Parent: 249 Sibling: 176 Child: 0   PropPtr: 0x1BB1)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 4 bytes]: Data = 42 67 42 6E
+    -> Property ID #17 [Size: 2 bytes]: Data = 57 30
+  Object #175: "Egyptian Room                 " (Parent: 82  Sibling: 96  Child: 208 PropPtr: 0x1BC1)
+    -> Active Attributes: NONE
+    -> Property ID #29 [Size: 1 bytes]: Data = DC
+    -> Property ID #23 [Size: 1 bytes]: Data = DC
+    -> Property ID #11 [Size: 2 bytes]: Data = 93 7F
+    -> Property ID #05 [Size: 1 bytes]: Data = 49
+  Object #176: "crack                         " (Parent: 249 Sibling: 182 Child: 0   PropPtr: 0x1BD4)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 2 bytes]: Data = 3E CB
+    -> Property ID #17 [Size: 2 bytes]: Data = 4F 8F
+    -> Property ID #16 [Size: 1 bytes]: Data = F2
+  Object #177: "stone barrow                  " (Parent: 178 Sibling: 0   Child: 0   PropPtr: 0x1BE2)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 4 bytes]: Data = 3C 2B 4C 07
+    -> Property ID #17 [Size: 2 bytes]: Data = 51 1C
+    -> Property ID #16 [Size: 2 bytes]: Data = C6 C7
+  Object #178: "Stone Barrow                  " (Parent: 82  Sibling: 0   Child: 179 PropPtr: 0x1BF7)
+    -> Active Attributes: NONE
+    -> Property ID #27 [Size: 1 bytes]: Data = B4
+    -> Property ID #17 [Size: 2 bytes]: Data = 4F FB
+    -> Property ID #11 [Size: 2 bytes]: Data = 8E 5B
+  Object #179: "stone door                    " (Parent: 178 Sibling: 177 Child: 0   PropPtr: 0x1C0B)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 2 bytes]: Data = 3F 9D
+    -> Property ID #17 [Size: 2 bytes]: Data = 51 13
+    -> Property ID #16 [Size: 2 bytes]: Data = C8 C7
+  Object #180: "West of House                 " (Parent: 82  Sibling: 15  Child: 181 PropPtr: 0x1C1E)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 51
+    -> Property ID #30 [Size: 2 bytes]: Data = 8E 4E
+    -> Property ID #29 [Size: 1 bytes]: Data = 4E
+    -> Property ID #28 [Size: 1 bytes]: Data = 50
+    -> Property ID #27 [Size: 1 bytes]: Data = 51
+    -> Property ID #25 [Size: 1 bytes]: Data = 50
+    -> Property ID #24 [Size: 4 bytes]: Data = B2 9C 00 00
+    -> Property ID #21 [Size: 4 bytes]: Data = B2 9C 00 00
+    -> Property ID #17 [Size: 2 bytes]: Data = 4A 9E
+    -> Property ID #05 [Size: 2 bytes]: Data = F3 FA
+  Object #181: "door                          " (Parent: 180 Sibling: 160 Child: 0   PropPtr: 0x1C47)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 2 bytes]: Data = 3F 9D
+    -> Property ID #17 [Size: 2 bytes]: Data = 6D 57
+    -> Property ID #16 [Size: 2 bytes]: Data = C9 CA
+  Object #182: "boarded window                " (Parent: 249 Sibling: 205 Child: 0   PropPtr: 0x1C56)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 2 bytes]: Data = 4D C0
+    -> Property ID #17 [Size: 2 bytes]: Data = 4F 61
+    -> Property ID #16 [Size: 1 bytes]: Data = CA
+  Object #183: "trap door                     " (Parent: 193 Sibling: 192 Child: 0   PropPtr: 0x1C6A)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 8 bytes]: Data = 3F 9D 4C 5B 4C 54 3E C4
+    -> Property ID #17 [Size: 2 bytes]: Data = 52 05
+    -> Property ID #16 [Size: 2 bytes]: Data = CC CB
+  Object #184: "dam                           " (Parent: 215 Sibling: 214 Child: 0   PropPtr: 0x1C81)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 8 bytes]: Data = 3F 11 41 F0 41 F7 40 A0
+    -> Property ID #17 [Size: 2 bytes]: Data = 60 3A
+  Object #185: "Cyclops Room                  " (Parent: 82  Sibling: 52  Child: 186 PropPtr: 0x1C91)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 4 bytes]: Data = 33 9F 91 15
+    -> Property ID #26 [Size: 1 bytes]: Data = 34
+    -> Property ID #23 [Size: 4 bytes]: Data = BE A5 91 1C
+    -> Property ID #17 [Size: 2 bytes]: Data = 64 D2
+    -> Property ID #05 [Size: 1 bytes]: Data = 49
+  Object #186: "cyclops                       " (Parent: 185 Sibling: 0   Child: 0   PropPtr: 0x1CA8)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 6 bytes]: Data = 3F 03 45 B6 40 84
+    -> Property ID #17 [Size: 2 bytes]: Data = 62 EB
+    -> Property ID #16 [Size: 2 bytes]: Data = CE CD
+    -> Property ID #07 [Size: 2 bytes]: Data = 27 10
+  Object #187: "Atlantis Room                 " (Parent: 82  Sibling: 42  Child: 188 PropPtr: 0x1CC0)
+    -> Active Attributes: NONE
+    -> Property ID #28 [Size: 1 bytes]: Data = AC
+    -> Property ID #23 [Size: 1 bytes]: Data = 2F
+    -> Property ID #11 [Size: 2 bytes]: Data = 92 63
+    -> Property ID #05 [Size: 1 bytes]: Data = 49
+  Object #188: "crystal trident               " (Parent: 187 Sibling: 0   Child: 0   PropPtr: 0x1CD3)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 6 bytes]: Data = 4C 77 41 87 4C 62
+    -> Property ID #16 [Size: 3 bytes]: Data = D0 CF EF
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 14
+    -> Property ID #14 [Size: 2 bytes]: Data = 86 DA
+    -> Property ID #13 [Size: 2 bytes]: Data = 00 04
+    -> Property ID #12 [Size: 2 bytes]: Data = 00 0B
+  Object #189: "clove of garlic               " (Parent: 224 Sibling: 0   Child: 0   PropPtr: 0x1CF6)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 4 bytes]: Data = 41 E2 3E 70
+    -> Property ID #17 [Size: 2 bytes]: Data = 85 36
+  Object #190: "Treasure Room                 " (Parent: 82  Sibling: 51  Child: 191 PropPtr: 0x1D0A)
+    -> Active Attributes: NONE
+    -> Property ID #22 [Size: 1 bytes]: Data = B9
+    -> Property ID #17 [Size: 2 bytes]: Data = 6C E4
+    -> Property ID #13 [Size: 2 bytes]: Data = 00 19
+    -> Property ID #11 [Size: 2 bytes]: Data = 91 4C
+    -> Property ID #05 [Size: 1 bytes]: Data = 49
+  Object #191: "chalice                       " (Parent: 190 Sibling: 0   Child: 0   PropPtr: 0x1D21)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 8 bytes]: Data = 3D F9 3E EE 49 EC 4C 62
+    -> Property ID #17 [Size: 2 bytes]: Data = 6C B3
+    -> Property ID #16 [Size: 2 bytes]: Data = D2 D1
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 0A
+    -> Property ID #13 [Size: 2 bytes]: Data = 00 0A
+    -> Property ID #12 [Size: 2 bytes]: Data = 00 05
+    -> Property ID #11 [Size: 2 bytes]: Data = 86 CA
+    -> Property ID #10 [Size: 2 bytes]: Data = 00 05
+  Object #192: "carpet                        " (Parent: 193 Sibling: 0   Child: 0   PropPtr: 0x1D47)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 4 bytes]: Data = 48 DB 3D C1
+    -> Property ID #17 [Size: 2 bytes]: Data = 52 FD
+    -> Property ID #16 [Size: 2 bytes]: Data = F9 D3
+  Object #193: "Living Room                   " (Parent: 82  Sibling: 201 Child: 194 PropPtr: 0x1D58)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 1 bytes]: Data = CB
+    -> Property ID #29 [Size: 4 bytes]: Data = 33 9F 8F B7
+    -> Property ID #22 [Size: 3 bytes]: Data = 52 E8 00
+    -> Property ID #17 [Size: 2 bytes]: Data = 51 36
+    -> Property ID #05 [Size: 1 bytes]: Data = 49
+    -> Property ID #04 [Size: 8 bytes]: Data = 45 F5 4F 7C 45 EE 4F 7C
+  Object #194: "trophy case                   " (Parent: 193 Sibling: 110 Child: 109 PropPtr: 0x1D7B)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 2 bytes]: Data = 3D D6
+    -> Property ID #17 [Size: 2 bytes]: Data = 51 22
+    -> Property ID #16 [Size: 1 bytes]: Data = D4
+    -> Property ID #10 [Size: 2 bytes]: Data = 27 10
+  Object #195: "blue button                   " (Parent: 199 Sibling: 196 Child: 0   PropPtr: 0x1D90)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 4 bytes]: Data = 3D 9E 4B 66
+    -> Property ID #17 [Size: 2 bytes]: Data = 5E E6
+    -> Property ID #16 [Size: 1 bytes]: Data = D5
+  Object #196: "red button                    " (Parent: 199 Sibling: 197 Child: 0   PropPtr: 0x1DA4)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 4 bytes]: Data = 3D 9E 4B 66
+    -> Property ID #17 [Size: 2 bytes]: Data = 5E E6
+    -> Property ID #16 [Size: 1 bytes]: Data = E8
+  Object #197: "brown button                  " (Parent: 199 Sibling: 198 Child: 0   PropPtr: 0x1DB8)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 4 bytes]: Data = 3D 9E 4B 66
+    -> Property ID #17 [Size: 2 bytes]: Data = 5E E6
+    -> Property ID #16 [Size: 1 bytes]: Data = DA
+  Object #198: "yellow button                 " (Parent: 199 Sibling: 0   Child: 0   PropPtr: 0x1DCC)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 4 bytes]: Data = 3D 9E 4B 66
+    -> Property ID #17 [Size: 2 bytes]: Data = 5E E6
+    -> Property ID #16 [Size: 1 bytes]: Data = D6
+  Object #199: "Maintenance Room              " (Parent: 82  Sibling: 154 Child: 200 PropPtr: 0x1DE2)
+    -> Active Attributes: NONE
+    -> Property ID #29 [Size: 1 bytes]: Data = 9A
+    -> Property ID #28 [Size: 1 bytes]: Data = 9A
+    -> Property ID #11 [Size: 2 bytes]: Data = 94 5D
+  Object #200: "group of tool chests          " (Parent: 199 Sibling: 91  Child: 0   PropPtr: 0x1DF5)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 8 bytes]: Data = 3E 15 3E 1C 42 8A 4C 15
+    -> Property ID #17 [Size: 2 bytes]: Data = 5F 57
+    -> Property ID #16 [Size: 1 bytes]: Data = D7
+  Object #201: "Attic                         " (Parent: 82  Sibling: 203 Child: 202 PropPtr: 0x1E13)
+    -> Active Attributes: NONE
+    -> Property ID #22 [Size: 1 bytes]: Data = CB
+    -> Property ID #11 [Size: 2 bytes]: Data = 8F A8
+    -> Property ID #05 [Size: 1 bytes]: Data = 49
+  Object #202: "table                         " (Parent: 201 Sibling: 129 Child: 169 PropPtr: 0x1E20)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 2 bytes]: Data = 4B 74
+    -> Property ID #10 [Size: 2 bytes]: Data = 00 28
+  Object #203: "Kitchen                       " (Parent: 82  Sibling: 74  Child: 204 PropPtr: 0x1E2C)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 5 bytes]: Data = 4F EB 00 00 00
+    -> Property ID #29 [Size: 1 bytes]: Data = C1
+    -> Property ID #23 [Size: 1 bytes]: Data = C9
+    -> Property ID #22 [Size: 4 bytes]: Data = 5E A6 8F 9A
+    -> Property ID #20 [Size: 5 bytes]: Data = 4F EB 00 00 00
+    -> Property ID #17 [Size: 2 bytes]: Data = 4F 98
+    -> Property ID #13 [Size: 2 bytes]: Data = 00 0A
+    -> Property ID #05 [Size: 3 bytes]: Data = EB EA 49
+  Object #204: "kitchen table                 " (Parent: 203 Sibling: 0   Child: 224 PropPtr: 0x1E53)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 2 bytes]: Data = 4B 74
+    -> Property ID #16 [Size: 1 bytes]: Data = F5
+    -> Property ID #10 [Size: 2 bytes]: Data = 00 32
+  Object #205: "chute                         " (Parent: 249 Sibling: 234 Child: 0   PropPtr: 0x1E67)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 6 bytes]: Data = 3E 38 48 3A 4A 32
+    -> Property ID #17 [Size: 2 bytes]: Data = 7A 87
+    -> Property ID #16 [Size: 3 bytes]: Data = DC E6 DB
+  Object #206: "Timber Room                   " (Parent: 82  Sibling: 118 Child: 207 PropPtr: 0x1E7B)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 1 bytes]: Data = 14
+    -> Property ID #29 [Size: 4 bytes]: Data = E4 A2 99 AC
+    -> Property ID #17 [Size: 2 bytes]: Data = 73 19
+    -> Property ID #11 [Size: 2 bytes]: Data = 99 77
+  Object #207: "broken timber                 " (Parent: 206 Sibling: 0   Child: 0   PropPtr: 0x1E92)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 4 bytes]: Data = 4B F9 47 5A
+    -> Property ID #16 [Size: 2 bytes]: Data = DD E2
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 32
+  Object #208: "gold coffin                   " (Parent: 175 Sibling: 0   Child: 209 PropPtr: 0x1EA9)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 6 bytes]: Data = 3E 7E 3D DD 4C 62
+    -> Property ID #16 [Size: 2 bytes]: Data = C3 C2
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 37
+    -> Property ID #13 [Size: 2 bytes]: Data = 00 0A
+    -> Property ID #12 [Size: 2 bytes]: Data = 00 0F
+    -> Property ID #11 [Size: 2 bytes]: Data = 86 F5
+    -> Property ID #10 [Size: 2 bytes]: Data = 00 23
+  Object #209: "sceptre                       " (Parent: 208 Sibling: 0   Child: 0   PropPtr: 0x1ECC)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 6 bytes]: Data = 49 36 49 2F 4C 62
+    -> Property ID #17 [Size: 2 bytes]: Data = 73 4F
+    -> Property ID #16 [Size: 4 bytes]: Data = E1 E0 DF DE
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 03
+    -> Property ID #14 [Size: 2 bytes]: Data = 86 8A
+    -> Property ID #13 [Size: 2 bytes]: Data = 00 04
+    -> Property ID #12 [Size: 2 bytes]: Data = 00 06
+    -> Property ID #11 [Size: 2 bytes]: Data = 86 77
+  Object #210: "broken lantern                " (Parent: 0   Sibling: 0   Child: 0   PropPtr: 0x1EF2)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 4 bytes]: Data = 44 51 44 5F
+    -> Property ID #16 [Size: 1 bytes]: Data = E2
+  Object #211: "black book                    " (Parent: 213 Sibling: 0   Child: 0   PropPtr: 0x1F05)
+    -> Active Attributes: OPEN
+    -> Property ID #18 [Size: 8 bytes]: Data = 3D 04 47 BC 46 C7 3D 12
+    -> Property ID #17 [Size: 2 bytes]: Data = 6D 91
+    -> Property ID #16 [Size: 2 bytes]: Data = F9 E3
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 0A
+    -> Property ID #14 [Size: 2 bytes]: Data = 85 D8
+    -> Property ID #08 [Size: 2 bytes]: Data = 85 E9
+  Object #212: "Altar                         " (Parent: 82  Sibling: 220 Child: 213 PropPtr: 0x1F27)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = DC
+    -> Property ID #22 [Size: 4 bytes]: Data = 2E 9B 94 1F
+    -> Property ID #17 [Size: 2 bytes]: Data = 73 38
+    -> Property ID #11 [Size: 2 bytes]: Data = 93 EE
+  Object #213: "altar                         " (Parent: 212 Sibling: 147 Child: 211 PropPtr: 0x1F3A)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 2 bytes]: Data = 3B 83
+    -> Property ID #10 [Size: 2 bytes]: Data = 00 32
+  Object #214: "green bubble                  " (Parent: 215 Sibling: 0   Child: 0   PropPtr: 0x1F46)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 2 bytes]: Data = 3D 6D
+    -> Property ID #17 [Size: 2 bytes]: Data = 5E 00
+    -> Property ID #16 [Size: 3 bytes]: Data = F4 E5 E4
+  Object #215: "Dam                           " (Parent: 82  Sibling: 212 Child: 216 PropPtr: 0x1F5A)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 9A
+    -> Property ID #30 [Size: 1 bytes]: Data = 8C
+    -> Property ID #29 [Size: 1 bytes]: Data = 32
+    -> Property ID #28 [Size: 1 bytes]: Data = 28
+    -> Property ID #22 [Size: 1 bytes]: Data = 8C
+    -> Property ID #17 [Size: 2 bytes]: Data = 5C 83
+    -> Property ID #05 [Size: 1 bytes]: Data = EE
+  Object #216: "bolt                          " (Parent: 215 Sibling: 90  Child: 0   PropPtr: 0x1F6F)
+    -> Active Attributes: TAKEABLE, OPEN
+    -> Property ID #18 [Size: 4 bytes]: Data = 3C F6 46 34
+    -> Property ID #17 [Size: 2 bytes]: Data = 5D 77
+    -> Property ID #16 [Size: 2 bytes]: Data = E6 F9
+  Object #217: "troll                         " (Parent: 102 Sibling: 0   Child: 218 PropPtr: 0x1F80)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 2 bytes]: Data = 4C 7E
+    -> Property ID #17 [Size: 2 bytes]: Data = 53 FF
+    -> Property ID #16 [Size: 1 bytes]: Data = BD
+    -> Property ID #11 [Size: 2 bytes]: Data = 8B E8
+    -> Property ID #07 [Size: 2 bytes]: Data = 00 02
+  Object #218: "bloody axe                    " (Parent: 217 Sibling: 0   Child: 0   PropPtr: 0x1F94)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 4 bytes]: Data = 3B FA 3B F3
+    -> Property ID #17 [Size: 2 bytes]: Data = 53 D1
+    -> Property ID #16 [Size: 1 bytes]: Data = E7
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 19
+  Object #219: "red hot brass bell            " (Parent: 0   Sibling: 0   Child: 0   PropPtr: 0x1FAB)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 2 bytes]: Data = 3C 6A
+    -> Property ID #17 [Size: 2 bytes]: Data = 4F 05
+    -> Property ID #16 [Size: 4 bytes]: Data = E9 ED E8 F4
+    -> Property ID #11 [Size: 2 bytes]: Data = 85 CF
+  Object #220: "Temple                        " (Parent: 82  Sibling: 105 Child: 221 PropPtr: 0x1FC7)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 69
+    -> Property ID #30 [Size: 1 bytes]: Data = AF
+    -> Property ID #28 [Size: 1 bytes]: Data = D4
+    -> Property ID #23 [Size: 1 bytes]: Data = 69
+    -> Property ID #22 [Size: 1 bytes]: Data = AF
+    -> Property ID #20 [Size: 1 bytes]: Data = 69
+    -> Property ID #11 [Size: 2 bytes]: Data = 93 AA
+    -> Property ID #05 [Size: 1 bytes]: Data = 49
+  Object #221: "brass bell                    " (Parent: 220 Sibling: 135 Child: 0   PropPtr: 0x1FE0)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 2 bytes]: Data = 3C 6A
+    -> Property ID #17 [Size: 2 bytes]: Data = 4E F8
+    -> Property ID #16 [Size: 2 bytes]: Data = F4 E9
+  Object #222: "Bat Room                      " (Parent: 82  Sibling: 23  Child: 223 PropPtr: 0x1FF3)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 1 bytes]: Data = E2
+    -> Property ID #28 [Size: 1 bytes]: Data = 17
+    -> Property ID #17 [Size: 2 bytes]: Data = 71 AE
+  Object #223: "bat                           " (Parent: 222 Sibling: 170 Child: 0   PropPtr: 0x2002)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 4 bytes]: Data = 3C 39 4D 18
+    -> Property ID #17 [Size: 2 bytes]: Data = 4E A8
+    -> Property ID #16 [Size: 2 bytes]: Data = EB EA
+    -> Property ID #09 [Size: 2 bytes]: Data = 71 73
+  Object #224: "brown sack                    " (Parent: 204 Sibling: 236 Child: 225 PropPtr: 0x2014)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 4 bytes]: Data = 3C 08 48 F7
+    -> Property ID #17 [Size: 2 bytes]: Data = 7A C8
+    -> Property ID #16 [Size: 3 bytes]: Data = DA D9 D8
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 03
+    -> Property ID #14 [Size: 2 bytes]: Data = 86 B5
+    -> Property ID #10 [Size: 2 bytes]: Data = 00 0F
+  Object #225: "lunch                         " (Parent: 224 Sibling: 189 Child: 0   PropPtr: 0x2033)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 8 bytes]: Data = 41 56 49 0C 45 15 3F 65
+    -> Property ID #16 [Size: 2 bytes]: Data = ED EC
+    -> Property ID #11 [Size: 2 bytes]: Data = 85 C5
+  Object #226: "Shaft Room                    " (Parent: 82  Sibling: 222 Child: 227 PropPtr: 0x2048)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 16
+    -> Property ID #29 [Size: 1 bytes]: Data = DE
+    -> Property ID #22 [Size: 2 bytes]: Data = 98 D0
+    -> Property ID #11 [Size: 2 bytes]: Data = 98 90
+    -> Property ID #04 [Size: 4 bytes]: Data = 3D F2 85 59
+  Object #227: "basket                        " (Parent: 226 Sibling: 0   Child: 0   PropPtr: 0x205F)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 6 bytes]: Data = 3D A5 3F DC 3C 32
+    -> Property ID #17 [Size: 2 bytes]: Data = 4E 39
+    -> Property ID #11 [Size: 2 bytes]: Data = 85 BA
+    -> Property ID #10 [Size: 2 bytes]: Data = 00 32
+  Object #228: "Drafty Room                   " (Parent: 82  Sibling: 206 Child: 229 PropPtr: 0x2075)
+    -> Active Attributes: NONE
+    -> Property ID #30 [Size: 4 bytes]: Data = CE A2 99 AC
+    -> Property ID #28 [Size: 1 bytes]: Data = 9D
+    -> Property ID #20 [Size: 4 bytes]: Data = CE A2 99 AC
+    -> Property ID #17 [Size: 2 bytes]: Data = 73 19
+    -> Property ID #11 [Size: 2 bytes]: Data = 99 B4
+    -> Property ID #04 [Size: 4 bytes]: Data = 3D F2 85 59
+  Object #229: "basket                        " (Parent: 228 Sibling: 0   Child: 0   PropPtr: 0x2096)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 6 bytes]: Data = 3D A5 3F DC 3C 32
+    -> Property ID #17 [Size: 2 bytes]: Data = 4E 39
+    -> Property ID #16 [Size: 1 bytes]: Data = EE
+    -> Property ID #11 [Size: 2 bytes]: Data = 85 AE
+  Object #230: "Land of the Dead              " (Parent: 82  Sibling: 232 Child: 231 PropPtr: 0x20AB)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = E8
+    -> Property ID #20 [Size: 1 bytes]: Data = E8
+    -> Property ID #11 [Size: 2 bytes]: Data = 93 2B
+    -> Property ID #05 [Size: 1 bytes]: Data = 91
+  Object #231: "crystal skull                 " (Parent: 230 Sibling: 0   Child: 0   PropPtr: 0x20C0)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 6 bytes]: Data = 4A 16 42 D0 4C 62
+    -> Property ID #16 [Size: 1 bytes]: Data = EF
+    -> Property ID #14 [Size: 2 bytes]: Data = 85 8B
+    -> Property ID #13 [Size: 2 bytes]: Data = 00 0A
+    -> Property ID #12 [Size: 2 bytes]: Data = 00 0A
+  Object #232: "Entrance to Hades             " (Parent: 82  Sibling: 37  Child: 233 PropPtr: 0x20DE)
+    -> Active Attributes: NONE
+    -> Property ID #28 [Size: 4 bytes]: Data = E6 A1 93 19
+    -> Property ID #23 [Size: 1 bytes]: Data = 2E
+    -> Property ID #21 [Size: 4 bytes]: Data = E6 A1 93 19
+    -> Property ID #17 [Size: 2 bytes]: Data = 5A 7F
+    -> Property ID #05 [Size: 1 bytes]: Data = 91
+    -> Property ID #04 [Size: 8 bytes]: Data = 41 F0 7C 94 41 F7 7C 94
+  Object #233: "number of ghosts              " (Parent: 232 Sibling: 0   Child: 0   PropPtr: 0x2106)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 8 bytes]: Data = 42 0C 4A 94 40 D1 41 72
+    -> Property ID #17 [Size: 2 bytes]: Data = 4D F4
+    -> Property ID #16 [Size: 2 bytes]: Data = F1 F0
+  Object #234: "chimney                       " (Parent: 249 Sibling: 235 Child: 0   PropPtr: 0x2121)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 2 bytes]: Data = 3E 23
+    -> Property ID #17 [Size: 2 bytes]: Data = 52 A2
+    -> Property ID #16 [Size: 2 bytes]: Data = F3 F2
+  Object #235: "kitchen window                " (Parent: 249 Sibling: 238 Child: 0   PropPtr: 0x2132)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 2 bytes]: Data = 4D C0
+    -> Property ID #17 [Size: 2 bytes]: Data = 4D AB
+    -> Property ID #16 [Size: 2 bytes]: Data = F5 F4
+  Object #236: "glass bottle                  " (Parent: 204 Sibling: 0   Child: 237 PropPtr: 0x2147)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 4 bytes]: Data = 3D 19 3E AF
+    -> Property ID #17 [Size: 2 bytes]: Data = 62 9E
+    -> Property ID #16 [Size: 2 bytes]: Data = C5 C4
+    -> Property ID #14 [Size: 2 bytes]: Data = 86 EB
+    -> Property ID #10 [Size: 2 bytes]: Data = 00 04
+  Object #237: "quantity of water             " (Parent: 236 Sibling: 0   Child: 0   PropPtr: 0x2162)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 8 bytes]: Data = 4D 73 48 09 44 CF 42 AD
+    -> Property ID #17 [Size: 2 bytes]: Data = 4C AB
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 04
+  Object #238: "water                         " (Parent: 249 Sibling: 241 Child: 0   PropPtr: 0x217F)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 4 bytes]: Data = 4D 73 48 09
+    -> Property ID #17 [Size: 2 bytes]: Data = 4C AB
+  Object #239: "Forest                        " (Parent: 82  Sibling: 77  Child: 240 PropPtr: 0x218D)
+    -> Active Attributes: NONE
+    -> Property ID #31 [Size: 1 bytes]: Data = 4D
+    -> Property ID #30 [Size: 2 bytes]: Data = 8F 2A
+    -> Property ID #29 [Size: 1 bytes]: Data = 4D
+    -> Property ID #28 [Size: 1 bytes]: Data = 4D
+    -> Property ID #23 [Size: 2 bytes]: Data = 8F 2A
+    -> Property ID #11 [Size: 2 bytes]: Data = 8F 18
+    -> Property ID #05 [Size: 2 bytes]: Data = F1 F3
+  Object #240: "mountain range                " (Parent: 239 Sibling: 0   Child: 0   PropPtr: 0x21A7)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 4 bytes]: Data = 45 BD 48 41
+    -> Property ID #17 [Size: 2 bytes]: Data = 4C 95
+    -> Property ID #16 [Size: 2 bytes]: Data = F7 F6
+  Object #241: "tree                          " (Parent: 249 Sibling: 242 Child: 0   PropPtr: 0x21BE)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 4 bytes]: Data = 4C 69 3D 2E
+    -> Property ID #16 [Size: 2 bytes]: Data = F9 F8
+  Object #242: "forest                        " (Parent: 249 Sibling: 243 Child: 0   PropPtr: 0x21CC)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 8 bytes]: Data = 41 80 4C 70 47 61 42 E5
+    -> Property ID #17 [Size: 2 bytes]: Data = 4C 64
+  Object #243: "white house                   " (Parent: 249 Sibling: 244 Child: 0   PropPtr: 0x21DE)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 2 bytes]: Data = 43 32
+    -> Property ID #17 [Size: 2 bytes]: Data = 4B C7
+    -> Property ID #16 [Size: 3 bytes]: Data = FC FB FA
+  Object #244: "songbird                      " (Parent: 249 Sibling: 0   Child: 0   PropPtr: 0x21F2)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 4 bytes]: Data = 3C 7F 4A 6A
+    -> Property ID #17 [Size: 2 bytes]: Data = 4B 9A
+    -> Property ID #16 [Size: 1 bytes]: Data = FD
+  Object #245: "granite wall                  " (Parent: 247 Sibling: 246 Child: 0   PropPtr: 0x2204)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 2 bytes]: Data = 4D 65
+    -> Property ID #17 [Size: 2 bytes]: Data = 4B 5E
+    -> Property ID #16 [Size: 1 bytes]: Data = FE
+  Object #246: "surrounding wall              " (Parent: 247 Sibling: 0   Child: 0   PropPtr: 0x2216)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 4 bytes]: Data = 4D 65 4D 6C
+    -> Property ID #16 [Size: 1 bytes]: Data = FF
+  Object #247: "[Unnamed Object]              " (Parent: 0   Sibling: 0   Child: 248 PropPtr: 0x222B)
+    -> Active Attributes: ROOM
+  Object #248: "set of teeth                  " (Parent: 247 Sibling: 1   Child: 0   PropPtr: 0x222D)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 4 bytes]: Data = 46 AB 4B 9E
+    -> Property ID #17 [Size: 2 bytes]: Data = 4B 29
+  Object #249: "[Unnamed Object]              " (Parent: 247 Sibling: 245 Child: 250 PropPtr: 0x223F)
+    -> Active Attributes: NONE
+    -> Property ID #18 [Size: 2 bytes]: Data = 4E 30
+    -> Property ID #15 [Size: 2 bytes]: Data = 00 00
+    -> Property ID #14 [Size: 2 bytes]: Data = 9A 38
+    -> Property ID #11 [Size: 2 bytes]: Data = 9A 38
+    -> Property ID #10 [Size: 2 bytes]: Data = 00 00
+    -> Property ID #09 [Size: 2 bytes]: Data = 29 E3
+    -> Property ID #06 [Size: 2 bytes]: Data = 00 01
+    -> Property ID #05 [Size: 1 bytes]: Data = F7
+    -> Property ID #04 [Size: 4 bytes]: Data = 41 4F 45 52
+    -> Property ID #03 [Size: 2 bytes]: Data = 00 00
+    -> Property ID #02 [Size: 2 bytes]: Data = 00 00
+  Object #250: "board                         " (Parent: 249 Sibling: 73  Child: 0   PropPtr: 0x2263)
+    -> Active Attributes: TAKEABLE
+    -> Property ID #18 [Size: 4 bytes]: Data = 3C DA 3C CC
+    -> Property ID #17 [Size: 2 bytes]: Data = 4B 1B
+================================================================================
+COMPLETE GAME DICTIONARY VOCABULARY TOKENS WORD LIST:
+  "$ve"             "."               ","               """               
+  "a"               "across"          "activa"          "advent"          
+  "advert"          "again"           "air"             "air-p"           
+  "all"             "altar"           "an"              "ancien"          
+  "and"             "answer"          "antiqu"          "apply"           
+  "around"          "art"             "ask"             "at"              
+  "attach"          "attack"          "aviato"          "awake"           
+  "away"            "ax"              "axe"             "back"            
+  "bag"             "banish"          "bar"             "bare"            
+  "barf"            "barrow"          "basket"          "bat"             
+  "bathe"           "bauble"          "beauti"          "beetle"          
+  "begone"          "behind"          "bell"            "below"           
+  "beneat"          "bird"            "birds"           "bite"            
+  "black"           "blade"           "blast"           "blessi"          
+  "block"           "bloody"          "blow"            "blue"            
+  "board"           "boarde"          "boards"          "boat"            
+  "bodies"          "body"            "bolt"            "bones"           
+  "book"            "bookle"          "books"           "bottle"          
+  "box"             "bracel"          "branch"          "brandi"          
+  "brass"           "break"           "breath"          "brief"           
+  "broken"          "brown"           "brush"           "bubble"          
+  "bug"             "buoy"            "burn"            "burned"          
+  "burnin"          "but"             "button"          "cage"            
+  "canary"          "candle"          "canvas"          "carpet"          
+  "carry"           "carved"          "case"            "casket"          
+  "cast"            "catch"           "chain"           "chalic"          
+  "chant"           "chase"           "chasm"           "chest"           
+  "chests"          "chimne"          "chomp"           "chuck"           
+  "chute"           "clean"           "clear"           "cliff"           
+  "cliffs"          "climb"           "clockw"          "close"           
+  "clove"           "coal"            "coffin"          "coil"            
+  "coins"           "coloni"          "come"            "comman"          
+  "consum"          "contai"          "contro"          "count"           
+  "cover"           "crack"           "crawlw"          "cretin"          
+  "cross"           "crysta"          "cup"             "curse"           
+  "cut"             "cyclop"          "d"               "dam"             
+  "damage"          "damn"            "dark"            "dead"            
+  "deflat"          "derang"          "descri"          "destro"          
+  "diagno"          "diamon"          "dig"             "dinner"          
+  "dirt"            "disemb"          "disenc"          "dispat"          
+  "dive"            "dome"            "donate"          "door"            
+  "douse"           "down"            "drink"           "drip"            
+  "drive"           "driver"          "drop"            "dryer"           
+  "dumbwa"          "dusty"           "e"               "east"            
+  "eat"             "echo"            "egg"             "egypti"          
+  "elonga"          "elvish"          "emeral"          "enamel"          
+  "enchan"          "encrus"          "engrav"          "enormo"          
+  "enter"           "evil"            "examin"          "except"          
+  "exit"            "exorci"          "exquis"          "exting"          
+  "eye"             "fall"            "fantas"          "fasten"          
+  "fcd#"            "fear"            "feeble"          "feed"            
+  "feel"            "fence"           "fermen"          "fiends"          
+  "fierce"          "fight"           "figuri"          "filch"           
+  "fill"            "find"            "fine"            "finepr"          
+  "firepr"          "fix"             "flamin"          "flathe"          
+  "flip"            "float"           "floor"           "fluore"          
+  "follow"          "foobar"          "food"            "footpa"          
+  "for"             "forbid"          "force"           "ford"            
+  "forest"          "fork"            "free"            "freeze"          
+  "frigid"          "froboz"          "from"            "front"           
+  "frotz"           "fry"             "fuck"            "fudge"           
+  "fumble"          "g"               "garlic"          "gas"             
+  "gate"            "gates"           "gaze"            "get"             
+  "ghosts"          "giant"           "give"            "glamdr"          
+  "glass"           "glue"            "go"              "gold"            
+  "golden"          "gothic"          "grab"            "graces"          
+  "granit"          "grate"           "gratin"          "grease"          
+  "green"           "ground"          "group"           "grue"            
+  "guide"           "guideb"          "gunk"            "h2o"             
+  "hand"            "hand-"           "hands"           "hatch"           
+  "head"            "heap"            "hello"           "hemloc"          
+  "hemp"            "her"             "here"            "hi"              
+  "hide"            "him"             "hit"             "hold"            
+  "hop"             "hot"             "house"           "huge"            
+  "hungry"          "hurl"            "hurt"            "i"               
+  "ignite"          "imbibe"          "impass"          "in"              
+  "incant"          "incine"          "inflat"          "injure"          
+  "inscri"          "insert"          "inside"          "intnum"          
+  "into"            "invent"          "invisi"          "is"              
+  "it"              "ivory"           "jade"            "jewel"           
+  "jewele"          "jewels"          "jump"            "key"             
+  "kick"            "kill"            "kiss"            "kitche"          
+  "knife"           "knives"          "knock"           "l"               
+  "label"           "ladder"          "lake"            "lamp"            
+  "land"            "lanter"          "large"           "launch"          
+  "leaf"            "leafle"          "leak"            "lean"            
+  "leap"            "leathe"          "leave"           "leaves"          
+  "ledge"           "letter"          "lid"             "lift"            
+  "light"           "liquid"          "liquif"          "listen"          
+  "lock"            "long"            "look"            "lose"            
+  "lower"           "lowere"          "lubric"          "lunch"           
+  "lungs"           "lurkin"          "machin"          "magic"           
+  "mail"            "mailbo"          "make"            "man"             
+  "mangle"          "manual"          "map"             "marble"          
+  "massiv"          "match"           "matchb"          "matche"          
+  "materi"          "me"              "melt"            "metal"           
+  "mirror"          "molest"          "monste"          "mounta"          
+  "mouth"           "move"            "mumble"          "murder"          
+  "myself"          "n"               "nail"            "nails"           
+  "narrow"          "nasty"           "ne"              "nest"            
+  "no"              "north"           "northe"          "northw"          
+  "nut"             "nw"              "odor"            "odysse"          
+  "of"              "off"             "offer"           "oil"             
+  "old"             "on"              "one"             "onto"            
+  "open"            "orcris"          "orient"          "out"             
+  "over"            "overbo"          "own"             "owners"          
+  "ozmoo"           "page"            "paint"           "painti"          
+  "pair"            "panel"           "paper"           "parchm"          
+  "passag"          "paste"           "pat"             "patch"           
+  "path"            "pdp1"            "peal"            "pedest"          
+  "pepper"          "person"          "pet"             "pick"            
+  "piece"           "pierce"          "pile"            "pines"           
+  "pipe"            "place"           "plasti"          "platin"          
+  "play"            "plug"            "plugh"           "poke"            
+  "poseid"          "pot"             "pour"            "pray"            
+  "prayer"          "press"           "print"           "procee"          
+  "pull"            "pump"            "punctu"          "pursue"          
+  "push"            "put"             "q"               "quanti"          
+  "quit"            "raft"            "rail"            "railin"          
+  "rainbo"          "raise"           "ramp"            "range"           
+  "rap"             "rape"            "read"            "red"             
+  "reflec"          "releas"          "remain"          "remove"          
+  "repair"          "repent"          "reply"           "restar"          
+  "restor"          "ricket"          "ring"            "river"           
+  "robber"          "rocky"           "roll"            "rope"            
+  "rub"             "rug"             "run"             "rusty"           
+  "s"               "sack"            "sailor"          "sand"            
+  "sandwi"          "sapphi"          "save"            "say"             
+  "scarab"          "scepte"          "sceptr"          "score"           
+  "scream"          "screw"           "screwd"          "script"          
+  "se"              "search"          "seawor"          "secure"          
+  "see"             "seedy"           "seek"            "self"            
+  "send"            "set"             "shady"           "shake"           
+  "sharp"           "sheer"           "shit"            "shout"           
+  "shovel"          "shut"            "sigh"            "silent"          
+  "silver"          "sinist"          "sit"             "skelet"          
+  "skim"            "skip"            "skull"           "slag"            
+  "slay"            "slice"           "slide"           "small"           
+  "smash"           "smell"           "smelly"          "sniff"           
+  "solid"           "song"            "songbi"          "south"           
+  "southe"          "southw"          "spill"           "spin"            
+  "spirit"          "spray"           "squeez"          "stab"            
+  "stairc"          "stairs"          "stairw"          "stand"           
+  "stare"           "startl"          "stay"            "steep"           
+  "step"            "steps"           "stilet"          "stone"           
+  "storm"           "strang"          "stream"          "strike"          
+  "stuff"           "super"           "superb"          "surpri"          
+  "surrou"          "suspic"          "sw"              "swallo"          
+  "swim"            "swing"           "switch"          "sword"           
+  "table"           "take"            "talk"            "tan"             
+  "taste"           "taunt"           "teeth"           "tell"            
+  "temple"          "the"             "them"            "then"            
+  "thief"           "thiefs"          "throug"          "throw"           
+  "thru"            "thrust"          "tie"             "timber"          
+  "to"              "tomb"            "tool"            "toolch"          
+  "tools"           "tooth"           "torch"           "toss"            
+  "touch"           "tour"            "trail"           "trap"            
+  "trap-"           "trapdo"          "treasu"          "tree"            
+  "trees"           "triden"          "troll"           "trophy"          
+  "trunk"           "tube"            "tug"             "turn"            
+  "twisti"          "u"               "ulysse"          "unatta"          
+  "under"           "undern"          "unfast"          "unhook"          
+  "unlock"          "unrust"          "unscri"          "untie"           
+  "up"              "useles"          "using"           "valve"           
+  "vampir"          "verbos"          "versio"          "viciou"          
+  "viscou"          "vitreo"          "w"               "wade"            
+  "wait"            "wake"            "walk"            "wall"            
+  "walls"           "water"           "wave"            "wear"            
+  "west"            "what"            "whats"           "where"           
+  "white"           "win"             "wind"            "windin"          
+  "window"          "winnag"          "wish"            "with"            
+  "wooden"          "wrench"          "writin"          "xyzzy"           
+  "y"               "yank"            "yell"            "yellow"          
+  "yes"             "z"               "zork"            "zorkmi"          
+  "zzmgck"          
+================================================================================
+
+##
+================================================================================
+# TARGET FILE: >test.z3<
+================================================================================
+
+##
+================================================================================
+# TARGET FILE: >test.z3<
+================================================================================
+Z-Machine Version:    z3
+Release Code:         88
+Compile Serial:       840726
+Memory Base Pointer:  0x4E37
+Initial PC Pointer:   0x4F05
+Dictionary Offset:    0x3B21
+--------------------------------------------------------------------------------
+File Checksum Status:      [PASS] (Header: 0xA129)
+File Dimension Boundary:   [PASS]
+Discovered Game Objects:   0 entries
+Captured Global Variables: 240 slots
+Parsed Vocabulary Words:   697 tokens
+================================================================================
+COMPLETE GLOBAL VARIABLES STATE STATE SNAPSHOT:
+  G0      : 0x0000   G1      : 0x0000   G2      : 0x0000   G3      : 0x2E4B   G4      : 0x2E1B   G5      : 0x2D3F   G6      : 0x2C75   G7      : 0x2BF9   
+  G8      : 0x2AB7   G9      : 0x2AAF   G10     : 0x2AA9   G11     : 0x2A95   G12     : 0x2A7F   G13     : 0x2A69   G14     : 0x2A51   G15     : 0x2A3D   
+  G16     : 0x2A23   G17     : 0x0000   G18     : 0x2A1D   G19     : 0xFFFF   G20     : 0x0001   G21     : 0x29FB   G22     : 0x29EF   G23     : 0x29D9   
+  G24     : 0x000D   G25     : 0x29CB   G26     : 0x0006   G27     : 0x29BD   G28     : 0x9E1A   G29     : 0x9DF5   G30     : 0x0000   G31     : 0x0000   
+  G32     : 0x0000   G33     : 0x0000   G34     : 0x29B1   G35     : 0x0000   G36     : 0x0000   G37     : 0x299F   G38     : 0x2995   G39     : 0x0000   
+  G40     : 0x0000   G41     : 0x0000   G42     : 0x0000   G43     : 0x0000   G44     : 0x0000   G45     : 0x0000   G46     : 0x0000   G47     : 0x0000   
+  G48     : 0x0000   G49     : 0x2981   G50     : 0x0001   G51     : 0x0000   G52     : 0x2977   G53     : 0x296B   G54     : 0x295F   G55     : 0x2959   
+  G56     : 0x294F   G57     : 0x2943   G58     : 0x0008   G59     : 0x0007   G60     : 0x0001   G61     : 0x0000   G62     : 0x0000   G63     : 0x0000   
+  G64     : 0x0000   G65     : 0x0000   G66     : 0x0000   G67     : 0x2937   G68     : 0x292D   G69     : 0x0000   G70     : 0x0000   G71     : 0x0000   
+  G72     : 0x0000   G73     : 0x0000   G74     : 0x0000   G75     : 0x0000   G76     : 0x0000   G77     : 0x0000   G78     : 0x0000   G79     : 0x0000   
+  G80     : 0x0000   G81     : 0x0000   G82     : 0x28C9   G83     : 0x2865   G84     : 0x2801   G85     : 0x279D   G86     : 0x2739   G87     : 0x0000   
+  G88     : 0x0000   G89     : 0x0000   G90     : 0x0000   G91     : 0x0000   G92     : 0x0000   G93     : 0x0000   G94     : 0x0000   G95     : 0x0000   
+  G96     : 0x0000   G97     : 0x0000   G98     : 0x2731   G99     : 0x271D   G100    : 0x2709   G101    : 0x0000   G102    : 0x0000   G103    : 0x0000   
+  G104    : 0x0000   G105    : 0x0000   G106    : 0x0000   G107    : 0x0000   G108    : 0x0000   G109    : 0x2641   G110    : 0x2551   G111    : 0x0000   
+  G112    : 0x0000   G113    : 0x0000   G114    : 0x0000   G115    : 0x0000   G116    : 0x0000   G117    : 0x0000   G118    : 0x0000   G119    : 0x0000   
+  G120    : 0x0000   G121    : 0x0000   G122    : 0x0000   G123    : 0x0000   G124    : 0x0000   G125    : 0x0000   G126    : 0x0000   G127    : 0x0000   
+  G128    : 0x0000   G129    : 0x0000   G130    : 0x00B4   G131    : 0x00B4   G132    : 0x23E9   G133    : 0x0064   G134    : 0x0064   G135    : 0x23D1   
+  G136    : 0x23C7   G137    : 0x23B9   G138    : 0x23AD   G139    : 0x0000   G140    : 0x0000   G141    : 0x0000   G142    : 0x0000   G143    : 0x0000   
+  G144    : 0x0000   G145    : 0x0000   G146    : 0x0000   G147    : 0x0000   G148    : 0x0000   G149    : 0x0000   G150    : 0x0000   G151    : 0x015E   
+  G152    : 0x0013   G153    : 0x2710   G154    : 0x3ADB   G155    : 0x3893   G156    : 0x39B7   G157    : 0x2E53   G158    : 0x0005   G159    : 0x00B4   
+  G160    : 0x0051   G161    : 0x004F   G162    : 0x0050   G163    : 0x00B4   G164    : 0x0006   G165    : 0x004E   G166    : 0x004D   G167    : 0x004C   
+  G168    : 0x004B   G169    : 0x004A   G170    : 0x004E   G171    : 0x0004   G172    : 0x00C1   G173    : 0x00CB   G174    : 0x00C9   G175    : 0x00CB   
+  G176    : 0x000B   G177    : 0x00B4   G178    : 0x0051   G179    : 0x004F   G180    : 0x0050   G181    : 0x004E   G182    : 0x004D   G183    : 0x004C   
+  G184    : 0x004B   G185    : 0x004A   G186    : 0x008F   G187    : 0x0019   G188    : 0x0000   G189    : 0x0000   G190    : 0x0000   G191    : 0x0000   
+  G192    : 0x0000   G193    : 0x0000   G194    : 0x0000   G195    : 0x0000   G196    : 0x0000   G197    : 0x0000   G198    : 0x0000   G199    : 0x0000   
+  G200    : 0x0000   G201    : 0x0000   G202    : 0x0000   G203    : 0x0000   G204    : 0x0000   G205    : 0x0000   G206    : 0x0000   G207    : 0x0000   
+  G208    : 0x0000   G209    : 0x0000   G210    : 0x0000   G211    : 0x0000   G212    : 0x0000   G213    : 0x0000   G214    : 0x0000   G215    : 0x0000   
+  G216    : 0x0000   G217    : 0x0000   G218    : 0x0000   G219    : 0x0000   G220    : 0x0000   G221    : 0x0000   G222    : 0x0000   G223    : 0x0000   
+  G224    : 0x0000   G225    : 0x0000   G226    : 0x0000   G227    : 0x0000   G228    : 0x0000   G229    : 0x0000   G230    : 0x0000   G231    : 0x0000   
+  G232    : 0x0000   G233    : 0x0000   G234    : 0x0000   G235    : 0x0000   G236    : 0x0000   G237    : 0x0000   G238    : 0x0000   G239    : 0x0000   
+  
+================================================================================
+COMPLETE GAME DICTIONARY VOCABULARY TOKENS WORD LIST:
+  "$ve"             "."               ","               """               
+  "a"               "across"          "activa"          "advent"          
+  "advert"          "again"           "air"             "air-p"           
+  "all"             "altar"           "an"              "ancien"          
+  "and"             "answer"          "antiqu"          "apply"           
+  "around"          "art"             "ask"             "at"              
+  "attach"          "attack"          "aviato"          "awake"           
+  "away"            "ax"              "axe"             "back"            
+  "bag"             "banish"          "bar"             "bare"            
+  "barf"            "barrow"          "basket"          "bat"             
+  "bathe"           "bauble"          "beauti"          "beetle"          
+  "begone"          "behind"          "bell"            "below"           
+  "beneat"          "bird"            "birds"           "bite"            
+  "black"           "blade"           "blast"           "blessi"          
+  "block"           "bloody"          "blow"            "blue"            
+  "board"           "boarde"          "boards"          "boat"            
+  "bodies"          "body"            "bolt"            "bones"           
+  "book"            "bookle"          "books"           "bottle"          
+  "box"             "bracel"          "branch"          "brandi"          
+  "brass"           "break"           "breath"          "brief"           
+  "broken"          "brown"           "brush"           "bubble"          
+  "bug"             "buoy"            "burn"            "burned"          
+  "burnin"          "but"             "button"          "cage"            
+  "canary"          "candle"          "canvas"          "carpet"          
+  "carry"           "carved"          "case"            "casket"          
+  "cast"            "catch"           "chain"           "chalic"          
+  "chant"           "chase"           "chasm"           "chest"           
+  "chests"          "chimne"          "chomp"           "chuck"           
+  "chute"           "clean"           "clear"           "cliff"           
+  "cliffs"          "climb"           "clockw"          "close"           
+  "clove"           "coal"            "coffin"          "coil"            
+  "coins"           "coloni"          "come"            "comman"          
+  "consum"          "contai"          "contro"          "count"           
+  "cover"           "crack"           "crawlw"          "cretin"          
+  "cross"           "crysta"          "cup"             "curse"           
+  "cut"             "cyclop"          "d"               "dam"             
+  "damage"          "damn"            "dark"            "dead"            
+  "deflat"          "derang"          "descri"          "destro"          
+  "diagno"          "diamon"          "dig"             "dinner"          
+  "dirt"            "disemb"          "disenc"          "dispat"          
+  "dive"            "dome"            "donate"          "door"            
+  "douse"           "down"            "drink"           "drip"            
+  "drive"           "driver"          "drop"            "dryer"           
+  "dumbwa"          "dusty"           "e"               "east"            
+  "eat"             "echo"            "egg"             "egypti"          
+  "elonga"          "elvish"          "emeral"          "enamel"          
+  "enchan"          "encrus"          "engrav"          "enormo"          
+  "enter"           "evil"            "examin"          "except"          
+  "exit"            "exorci"          "exquis"          "exting"          
+  "eye"             "fall"            "fantas"          "fasten"          
+  "fcd#"            "fear"            "feeble"          "feed"            
+  "feel"            "fence"           "fermen"          "fiends"          
+  "fierce"          "fight"           "figuri"          "filch"           
+  "fill"            "find"            "fine"            "finepr"          
+  "firepr"          "fix"             "flamin"          "flathe"          
+  "flip"            "float"           "floor"           "fluore"          
+  "follow"          "foobar"          "food"            "footpa"          
+  "for"             "forbid"          "force"           "ford"            
+  "forest"          "fork"            "free"            "freeze"          
+  "frigid"          "froboz"          "from"            "front"           
+  "frotz"           "fry"             "fuck"            "fudge"           
+  "fumble"          "g"               "garlic"          "gas"             
+  "gate"            "gates"           "gaze"            "get"             
+  "ghosts"          "giant"           "give"            "glamdr"          
+  "glass"           "glue"            "go"              "gold"            
+  "golden"          "gothic"          "grab"            "graces"          
+  "granit"          "grate"           "gratin"          "grease"          
+  "green"           "ground"          "group"           "grue"            
+  "guide"           "guideb"          "gunk"            "h2o"             
+  "hand"            "hand-"           "hands"           "hatch"           
+  "head"            "heap"            "hello"           "hemloc"          
+  "hemp"            "her"             "here"            "hi"              
+  "hide"            "him"             "hit"             "hold"            
+  "hop"             "hot"             "house"           "huge"            
+  "hungry"          "hurl"            "hurt"            "i"               
+  "ignite"          "imbibe"          "impass"          "in"              
+  "incant"          "incine"          "inflat"          "injure"          
+  "inscri"          "insert"          "inside"          "intnum"          
+  "into"            "invent"          "invisi"          "is"              
+  "it"              "ivory"           "jade"            "jewel"           
+  "jewele"          "jewels"          "jump"            "key"             
+  "kick"            "kill"            "kiss"            "kitche"          
+  "knife"           "knives"          "knock"           "l"               
+  "label"           "ladder"          "lake"            "lamp"            
+  "land"            "lanter"          "large"           "launch"          
+  "leaf"            "leafle"          "leak"            "lean"            
+  "leap"            "leathe"          "leave"           "leaves"          
+  "ledge"           "letter"          "lid"             "lift"            
+  "light"           "liquid"          "liquif"          "listen"          
+  "lock"            "long"            "look"            "lose"            
+  "lower"           "lowere"          "lubric"          "lunch"           
+  "lungs"           "lurkin"          "machin"          "magic"           
+  "mail"            "mailbo"          "make"            "man"             
+  "mangle"          "manual"          "map"             "marble"          
+  "massiv"          "match"           "matchb"          "matche"          
+  "materi"          "me"              "melt"            "metal"           
+  "mirror"          "molest"          "monste"          "mounta"          
+  "mouth"           "move"            "mumble"          "murder"          
+  "myself"          "n"               "nail"            "nails"           
+  "narrow"          "nasty"           "ne"              "nest"            
+  "no"              "north"           "northe"          "northw"          
+  "nut"             "nw"              "odor"            "odysse"          
+  "of"              "off"             "offer"           "oil"             
+  "old"             "on"              "one"             "onto"            
+  "open"            "orcris"          "orient"          "out"             
+  "over"            "overbo"          "own"             "owners"          
+  "ozmoo"           "page"            "paint"           "painti"          
+  "pair"            "panel"           "paper"           "parchm"          
+  "passag"          "paste"           "pat"             "patch"           
+  "path"            "pdp1"            "peal"            "pedest"          
+  "pepper"          "person"          "pet"             "pick"            
+  "piece"           "pierce"          "pile"            "pines"           
+  "pipe"            "place"           "plasti"          "platin"          
+  "play"            "plug"            "plugh"           "poke"            
+  "poseid"          "pot"             "pour"            "pray"            
+  "prayer"          "press"           "print"           "procee"          
+  "pull"            "pump"            "punctu"          "pursue"          
+  "push"            "put"             "q"               "quanti"          
+  "quit"            "raft"            "rail"            "railin"          
+  "rainbo"          "raise"           "ramp"            "range"           
+  "rap"             "rape"            "read"            "red"             
+  "reflec"          "releas"          "remain"          "remove"          
+  "repair"          "repent"          "reply"           "restar"          
+  "restor"          "ricket"          "ring"            "river"           
+  "robber"          "rocky"           "roll"            "rope"            
+  "rub"             "rug"             "run"             "rusty"           
+  "s"               "sack"            "sailor"          "sand"            
+  "sandwi"          "sapphi"          "save"            "say"             
+  "scarab"          "scepte"          "sceptr"          "score"           
+  "scream"          "screw"           "screwd"          "script"          
+  "se"              "search"          "seawor"          "secure"          
+  "see"             "seedy"           "seek"            "self"            
+  "send"            "set"             "shady"           "shake"           
+  "sharp"           "sheer"           "shit"            "shout"           
+  "shovel"          "shut"            "sigh"            "silent"          
+  "silver"          "sinist"          "sit"             "skelet"          
+  "skim"            "skip"            "skull"           "slag"            
+  "slay"            "slice"           "slide"           "small"           
+  "smash"           "smell"           "smelly"          "sniff"           
+  "solid"           "song"            "songbi"          "south"           
+  "southe"          "southw"          "spill"           "spin"            
+  "spirit"          "spray"           "squeez"          "stab"            
+  "stairc"          "stairs"          "stairw"          "stand"           
+  "stare"           "startl"          "stay"            "steep"           
+  "step"            "steps"           "stilet"          "stone"           
+  "storm"           "strang"          "stream"          "strike"          
+  "stuff"           "super"           "superb"          "surpri"          
+  "surrou"          "suspic"          "sw"              "swallo"          
+  "swim"            "swing"           "switch"          "sword"           
+  "table"           "take"            "talk"            "tan"             
+  "taste"           "taunt"           "teeth"           "tell"            
+  "temple"          "the"             "them"            "then"            
+  "thief"           "thiefs"          "throug"          "throw"           
+  "thru"            "thrust"          "tie"             "timber"          
+  "to"              "tomb"            "tool"            "toolch"          
+  "tools"           "tooth"           "torch"           "toss"            
+  "touch"           "tour"            "trail"           "trap"            
+  "trap-"           "trapdo"          "treasu"          "tree"            
+  "trees"           "triden"          "troll"           "trophy"          
+  "trunk"           "tube"            "tug"             "turn"            
+  "twisti"          "u"               "ulysse"          "unatta"          
+  "under"           "undern"          "unfast"          "unhook"          
+  "unlock"          "unrust"          "unscri"          "untie"           
+  "up"              "useles"          "using"           "valve"           
+  "vampir"          "verbos"          "versio"          "viciou"          
+  "viscou"          "vitreo"          "w"               "wade"            
+  "wait"            "wake"            "walk"            "wall"            
+  "walls"           "water"           "wave"            "wear"            
+  "west"            "what"            "whats"           "where"           
+  "white"           "win"             "wind"            "windin"          
+  "window"          "winnag"          "wish"            "with"            
+  "wooden"          "wrench"          "writin"          "xyzzy"           
+  "y"               "yank"            "yell"            "yellow"          
+  "yes"             "z"               "zork"            "zorkmi"          
+  "zzmgck"          
+================================================================================
+
+##
+================================================================================
+# TARGET FILE: >test.z3<
+================================================================================
+Z-Machine Version:    z3
+Release Code:         88
+Compile Serial:       840726
+Memory Base Pointer:  0x4E37
+Initial PC Pointer:   0x4F05
+Dictionary Offset:    0x3B21
+--------------------------------------------------------------------------------
+File Checksum Status:      [PASS] (Header: 0xA129)
+File Dimension Boundary:   [PASS]
+Discovered Game Objects:   0 entries
+Captured Global Variables: 240 slots
+Parsed Vocabulary Words:   697 tokens
+================================================================================
+COMPLETE GLOBAL VARIABLES STATE STATE SNAPSHOT:
+  G0      : 0x0000   G1      : 0x0000   G2      : 0x0000   G3      : 0x2E4B   G4      : 0x2E1B   G5      : 0x2D3F   G6      : 0x2C75   G7      : 0x2BF9   
+  G8      : 0x2AB7   G9      : 0x2AAF   G10     : 0x2AA9   G11     : 0x2A95   G12     : 0x2A7F   G13     : 0x2A69   G14     : 0x2A51   G15     : 0x2A3D   
+  G16     : 0x2A23   G17     : 0x0000   G18     : 0x2A1D   G19     : 0xFFFF   G20     : 0x0001   G21     : 0x29FB   G22     : 0x29EF   G23     : 0x29D9   
+  G24     : 0x000D   G25     : 0x29CB   G26     : 0x0006   G27     : 0x29BD   G28     : 0x9E1A   G29     : 0x9DF5   G30     : 0x0000   G31     : 0x0000   
+  G32     : 0x0000   G33     : 0x0000   G34     : 0x29B1   G35     : 0x0000   G36     : 0x0000   G37     : 0x299F   G38     : 0x2995   G39     : 0x0000   
+  G40     : 0x0000   G41     : 0x0000   G42     : 0x0000   G43     : 0x0000   G44     : 0x0000   G45     : 0x0000   G46     : 0x0000   G47     : 0x0000   
+  G48     : 0x0000   G49     : 0x2981   G50     : 0x0001   G51     : 0x0000   G52     : 0x2977   G53     : 0x296B   G54     : 0x295F   G55     : 0x2959   
+  G56     : 0x294F   G57     : 0x2943   G58     : 0x0008   G59     : 0x0007   G60     : 0x0001   G61     : 0x0000   G62     : 0x0000   G63     : 0x0000   
+  G64     : 0x0000   G65     : 0x0000   G66     : 0x0000   G67     : 0x2937   G68     : 0x292D   G69     : 0x0000   G70     : 0x0000   G71     : 0x0000   
+  G72     : 0x0000   G73     : 0x0000   G74     : 0x0000   G75     : 0x0000   G76     : 0x0000   G77     : 0x0000   G78     : 0x0000   G79     : 0x0000   
+  G80     : 0x0000   G81     : 0x0000   G82     : 0x28C9   G83     : 0x2865   G84     : 0x2801   G85     : 0x279D   G86     : 0x2739   G87     : 0x0000   
+  G88     : 0x0000   G89     : 0x0000   G90     : 0x0000   G91     : 0x0000   G92     : 0x0000   G93     : 0x0000   G94     : 0x0000   G95     : 0x0000   
+  G96     : 0x0000   G97     : 0x0000   G98     : 0x2731   G99     : 0x271D   G100    : 0x2709   G101    : 0x0000   G102    : 0x0000   G103    : 0x0000   
+  G104    : 0x0000   G105    : 0x0000   G106    : 0x0000   G107    : 0x0000   G108    : 0x0000   G109    : 0x2641   G110    : 0x2551   G111    : 0x0000   
+  G112    : 0x0000   G113    : 0x0000   G114    : 0x0000   G115    : 0x0000   G116    : 0x0000   G117    : 0x0000   G118    : 0x0000   G119    : 0x0000   
+  G120    : 0x0000   G121    : 0x0000   G122    : 0x0000   G123    : 0x0000   G124    : 0x0000   G125    : 0x0000   G126    : 0x0000   G127    : 0x0000   
+  G128    : 0x0000   G129    : 0x0000   G130    : 0x00B4   G131    : 0x00B4   G132    : 0x23E9   G133    : 0x0064   G134    : 0x0064   G135    : 0x23D1   
+  G136    : 0x23C7   G137    : 0x23B9   G138    : 0x23AD   G139    : 0x0000   G140    : 0x0000   G141    : 0x0000   G142    : 0x0000   G143    : 0x0000   
+  G144    : 0x0000   G145    : 0x0000   G146    : 0x0000   G147    : 0x0000   G148    : 0x0000   G149    : 0x0000   G150    : 0x0000   G151    : 0x015E   
+  G152    : 0x0013   G153    : 0x2710   G154    : 0x3ADB   G155    : 0x3893   G156    : 0x39B7   G157    : 0x2E53   G158    : 0x0005   G159    : 0x00B4   
+  G160    : 0x0051   G161    : 0x004F   G162    : 0x0050   G163    : 0x00B4   G164    : 0x0006   G165    : 0x004E   G166    : 0x004D   G167    : 0x004C   
+  G168    : 0x004B   G169    : 0x004A   G170    : 0x004E   G171    : 0x0004   G172    : 0x00C1   G173    : 0x00CB   G174    : 0x00C9   G175    : 0x00CB   
+  G176    : 0x000B   G177    : 0x00B4   G178    : 0x0051   G179    : 0x004F   G180    : 0x0050   G181    : 0x004E   G182    : 0x004D   G183    : 0x004C   
+  G184    : 0x004B   G185    : 0x004A   G186    : 0x008F   G187    : 0x0019   G188    : 0x0000   G189    : 0x0000   G190    : 0x0000   G191    : 0x0000   
+  G192    : 0x0000   G193    : 0x0000   G194    : 0x0000   G195    : 0x0000   G196    : 0x0000   G197    : 0x0000   G198    : 0x0000   G199    : 0x0000   
+  G200    : 0x0000   G201    : 0x0000   G202    : 0x0000   G203    : 0x0000   G204    : 0x0000   G205    : 0x0000   G206    : 0x0000   G207    : 0x0000   
+  G208    : 0x0000   G209    : 0x0000   G210    : 0x0000   G211    : 0x0000   G212    : 0x0000   G213    : 0x0000   G214    : 0x0000   G215    : 0x0000   
+  G216    : 0x0000   G217    : 0x0000   G218    : 0x0000   G219    : 0x0000   G220    : 0x0000   G221    : 0x0000   G222    : 0x0000   G223    : 0x0000   
+  G224    : 0x0000   G225    : 0x0000   G226    : 0x0000   G227    : 0x0000   G228    : 0x0000   G229    : 0x0000   G230    : 0x0000   G231    : 0x0000   
+  G232    : 0x0000   G233    : 0x0000   G234    : 0x0000   G235    : 0x0000   G236    : 0x0000   G237    : 0x0000   G238    : 0x0000   G239    : 0x0000   
+  
+================================================================================
+COMPLETE GAME DICTIONARY VOCABULARY TOKENS WORD LIST:
+  "$ve"             "."               ","               """               
+  "a"               "across"          "activa"          "advent"          
+  "advert"          "again"           "air"             "air-p"           
+  "all"             "altar"           "an"              "ancien"          
+  "and"             "answer"          "antiqu"          "apply"           
+  "around"          "art"             "ask"             "at"              
+  "attach"          "attack"          "aviato"          "awake"           
+  "away"            "ax"              "axe"             "back"            
+  "bag"             "banish"          "bar"             "bare"            
+  "barf"            "barrow"          "basket"          "bat"             
+  "bathe"           "bauble"          "beauti"          "beetle"          
+  "begone"          "behind"          "bell"            "below"           
+  "beneat"          "bird"            "birds"           "bite"            
+  "black"           "blade"           "blast"           "blessi"          
+  "block"           "bloody"          "blow"            "blue"            
+  "board"           "boarde"          "boards"          "boat"            
+  "bodies"          "body"            "bolt"            "bones"           
+  "book"            "bookle"          "books"           "bottle"          
+  "box"             "bracel"          "branch"          "brandi"          
+  "brass"           "break"           "breath"          "brief"           
+  "broken"          "brown"           "brush"           "bubble"          
+  "bug"             "buoy"            "burn"            "burned"          
+  "burnin"          "but"             "button"          "cage"            
+  "canary"          "candle"          "canvas"          "carpet"          
+  "carry"           "carved"          "case"            "casket"          
+  "cast"            "catch"           "chain"           "chalic"          
+  "chant"           "chase"           "chasm"           "chest"           
+  "chests"          "chimne"          "chomp"           "chuck"           
+  "chute"           "clean"           "clear"           "cliff"           
+  "cliffs"          "climb"           "clockw"          "close"           
+  "clove"           "coal"            "coffin"          "coil"            
+  "coins"           "coloni"          "come"            "comman"          
+  "consum"          "contai"          "contro"          "count"           
+  "cover"           "crack"           "crawlw"          "cretin"          
+  "cross"           "crysta"          "cup"             "curse"           
+  "cut"             "cyclop"          "d"               "dam"             
+  "damage"          "damn"            "dark"            "dead"            
+  "deflat"          "derang"          "descri"          "destro"          
+  "diagno"          "diamon"          "dig"             "dinner"          
+  "dirt"            "disemb"          "disenc"          "dispat"          
+  "dive"            "dome"            "donate"          "door"            
+  "douse"           "down"            "drink"           "drip"            
+  "drive"           "driver"          "drop"            "dryer"           
+  "dumbwa"          "dusty"           "e"               "east"            
+  "eat"             "echo"            "egg"             "egypti"          
+  "elonga"          "elvish"          "emeral"          "enamel"          
+  "enchan"          "encrus"          "engrav"          "enormo"          
+  "enter"           "evil"            "examin"          "except"          
+  "exit"            "exorci"          "exquis"          "exting"          
+  "eye"             "fall"            "fantas"          "fasten"          
+  "fcd#"            "fear"            "feeble"          "feed"            
+  "feel"            "fence"           "fermen"          "fiends"          
+  "fierce"          "fight"           "figuri"          "filch"           
+  "fill"            "find"            "fine"            "finepr"          
+  "firepr"          "fix"             "flamin"          "flathe"          
+  "flip"            "float"           "floor"           "fluore"          
+  "follow"          "foobar"          "food"            "footpa"          
+  "for"             "forbid"          "force"           "ford"            
+  "forest"          "fork"            "free"            "freeze"          
+  "frigid"          "froboz"          "from"            "front"           
+  "frotz"           "fry"             "fuck"            "fudge"           
+  "fumble"          "g"               "garlic"          "gas"             
+  "gate"            "gates"           "gaze"            "get"             
+  "ghosts"          "giant"           "give"            "glamdr"          
+  "glass"           "glue"            "go"              "gold"            
+  "golden"          "gothic"          "grab"            "graces"          
+  "granit"          "grate"           "gratin"          "grease"          
+  "green"           "ground"          "group"           "grue"            
+  "guide"           "guideb"          "gunk"            "h2o"             
+  "hand"            "hand-"           "hands"           "hatch"           
+  "head"            "heap"            "hello"           "hemloc"          
+  "hemp"            "her"             "here"            "hi"              
+  "hide"            "him"             "hit"             "hold"            
+  "hop"             "hot"             "house"           "huge"            
+  "hungry"          "hurl"            "hurt"            "i"               
+  "ignite"          "imbibe"          "impass"          "in"              
+  "incant"          "incine"          "inflat"          "injure"          
+  "inscri"          "insert"          "inside"          "intnum"          
+  "into"            "invent"          "invisi"          "is"              
+  "it"              "ivory"           "jade"            "jewel"           
+  "jewele"          "jewels"          "jump"            "key"             
+  "kick"            "kill"            "kiss"            "kitche"          
+  "knife"           "knives"          "knock"           "l"               
+  "label"           "ladder"          "lake"            "lamp"            
+  "land"            "lanter"          "large"           "launch"          
+  "leaf"            "leafle"          "leak"            "lean"            
+  "leap"            "leathe"          "leave"           "leaves"          
+  "ledge"           "letter"          "lid"             "lift"            
+  "light"           "liquid"          "liquif"          "listen"          
+  "lock"            "long"            "look"            "lose"            
+  "lower"           "lowere"          "lubric"          "lunch"           
+  "lungs"           "lurkin"          "machin"          "magic"           
+  "mail"            "mailbo"          "make"            "man"             
+  "mangle"          "manual"          "map"             "marble"          
+  "massiv"          "match"           "matchb"          "matche"          
+  "materi"          "me"              "melt"            "metal"           
+  "mirror"          "molest"          "monste"          "mounta"          
+  "mouth"           "move"            "mumble"          "murder"          
+  "myself"          "n"               "nail"            "nails"           
+  "narrow"          "nasty"           "ne"              "nest"            
+  "no"              "north"           "northe"          "northw"          
+  "nut"             "nw"              "odor"            "odysse"          
+  "of"              "off"             "offer"           "oil"             
+  "old"             "on"              "one"             "onto"            
+  "open"            "orcris"          "orient"          "out"             
+  "over"            "overbo"          "own"             "owners"          
+  "ozmoo"           "page"            "paint"           "painti"          
+  "pair"            "panel"           "paper"           "parchm"          
+  "passag"          "paste"           "pat"             "patch"           
+  "path"            "pdp1"            "peal"            "pedest"          
+  "pepper"          "person"          "pet"             "pick"            
+  "piece"           "pierce"          "pile"            "pines"           
+  "pipe"            "place"           "plasti"          "platin"          
+  "play"            "plug"            "plugh"           "poke"            
+  "poseid"          "pot"             "pour"            "pray"            
+  "prayer"          "press"           "print"           "procee"          
+  "pull"            "pump"            "punctu"          "pursue"          
+  "push"            "put"             "q"               "quanti"          
+  "quit"            "raft"            "rail"            "railin"          
+  "rainbo"          "raise"           "ramp"            "range"           
+  "rap"             "rape"            "read"            "red"             
+  "reflec"          "releas"          "remain"          "remove"          
+  "repair"          "repent"          "reply"           "restar"          
+  "restor"          "ricket"          "ring"            "river"           
+  "robber"          "rocky"           "roll"            "rope"            
+  "rub"             "rug"             "run"             "rusty"           
+  "s"               "sack"            "sailor"          "sand"            
+  "sandwi"          "sapphi"          "save"            "say"             
+  "scarab"          "scepte"          "sceptr"          "score"           
+  "scream"          "screw"           "screwd"          "script"          
+  "se"              "search"          "seawor"          "secure"          
+  "see"             "seedy"           "seek"            "self"            
+  "send"            "set"             "shady"           "shake"           
+  "sharp"           "sheer"           "shit"            "shout"           
+  "shovel"          "shut"            "sigh"            "silent"          
+  "silver"          "sinist"          "sit"             "skelet"          
+  "skim"            "skip"            "skull"           "slag"            
+  "slay"            "slice"           "slide"           "small"           
+  "smash"           "smell"           "smelly"          "sniff"           
+  "solid"           "song"            "songbi"          "south"           
+  "southe"          "southw"          "spill"           "spin"            
+  "spirit"          "spray"           "squeez"          "stab"            
+  "stairc"          "stairs"          "stairw"          "stand"           
+  "stare"           "startl"          "stay"            "steep"           
+  "step"            "steps"           "stilet"          "stone"           
+  "storm"           "strang"          "stream"          "strike"          
+  "stuff"           "super"           "superb"          "surpri"          
+  "surrou"          "suspic"          "sw"              "swallo"          
+  "swim"            "swing"           "switch"          "sword"           
+  "table"           "take"            "talk"            "tan"             
+  "taste"           "taunt"           "teeth"           "tell"            
+  "temple"          "the"             "them"            "then"            
+  "thief"           "thiefs"          "throug"          "throw"           
+  "thru"            "thrust"          "tie"             "timber"          
+  "to"              "tomb"            "tool"            "toolch"          
+  "tools"           "tooth"           "torch"           "toss"            
+  "touch"           "tour"            "trail"           "trap"            
+  "trap-"           "trapdo"          "treasu"          "tree"            
+  "trees"           "triden"          "troll"           "trophy"          
+  "trunk"           "tube"            "tug"             "turn"            
+  "twisti"          "u"               "ulysse"          "unatta"          
+  "under"           "undern"          "unfast"          "unhook"          
+  "unlock"          "unrust"          "unscri"          "untie"           
+  "up"              "useles"          "using"           "valve"           
+  "vampir"          "verbos"          "versio"          "viciou"          
+  "viscou"          "vitreo"          "w"               "wade"            
+  "wait"            "wake"            "walk"            "wall"            
+  "walls"           "water"           "wave"            "wear"            
+  "west"            "what"            "whats"           "where"           
+  "white"           "win"             "wind"            "windin"          
+  "window"          "winnag"          "wish"            "with"            
+  "wooden"          "wrench"          "writin"          "xyzzy"           
+  "y"               "yank"            "yell"            "yellow"          
+  "yes"             "z"               "zork"            "zorkmi"          
+  "zzmgck"          
+================================================================================
